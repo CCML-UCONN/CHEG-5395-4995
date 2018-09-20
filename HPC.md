@@ -3,10 +3,9 @@ mathjax: false
 permalink: /HPC/
 ---
 
-# Getting Started
-1. [Logging Into the Computing Clusters](../Clusters/)
-2. [Basic UNIX](../UNIX/)
-3. [Python](../Python/)
+## Getting Started
+* [Setting up accounts on HPC clusters.](../HPC/)
+* Tutorials for [UNIX command lines](../UNIX/) and [Python](../Python/)
 
 ____
 
@@ -45,17 +44,11 @@ Download and install:
 * [Xming](http://sourceforge.net/projects/xming/) (Note: disable automatic installation of PuTTY with Xming. The above installer is a newer version)
 
 
-### Linux (Debian-based, e.g. Ubuntu)
-From the terminal
-____
-
-<a name='logging'></a>
-
 ## Logging onto the Clusters
 
-For the [**Stampede**](https://www.tacc.utexas.edu/stampede/) cluster, make sure to read through the User Guide [here](https://portal.tacc.utexas.edu/user-guides/stampede).
+For the [*Stampede*](https://www.tacc.utexas.edu/stampede/) cluster, make sure to read through the User Guide [here](https://portal.tacc.utexas.edu/user-guides/stampede).
 
-login with your Stampede username (most probably start with ```tgxxxxxx```, check your account [here](https://www.xsede.org/group/xup/accounts))and password (you will aslo be asked for Mulit-factor Authorization).
+login with your Stampede username (most probably start with *tgxxxxxx*, check your account [here](https://www.xsede.org/group/xup/accounts))and password (you will aslo be asked for Mulit-factor Authorization).
 
 Follow the instructions below for your system:
 
