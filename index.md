@@ -1,37 +1,48 @@
-## Welcome to GitHub Pages test
+---
+layout: page
+mathjax: false 
+permalink: /
+---
 
-You can use the [editor on GitHub](https://github.com/CCML-UCONN/ccml.uconn.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+This website contains information about the CBE544 final course project, the homework problem set 5, as well as some tutorials to help you along the way.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+We will be using the [Atomic Simulation Environment (ASE)](https://wiki.fysik.dtu.dk/ase/) with the [ASE interface for the Quantum ESPRESSO calculator](http://github.com/vossjo/ase-espresso). Computing resources will be provided by [Texas Advanced Computing Center (TACC)](https://www.tacc.utexas.edu)'s [Stampede system](https://portal.tacc.utexas.edu/user-guides/stampede) The tutorials cover the basic usage of the UNIX shell, scripting in Python, and performing calculations using ASE. As part of the requirements for the final project, you will need to have passed HW5 before even starting the final project and you will have to complete the exercises by their respective deadlines.
 
-### Markdown
+## Projects ##
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### HomeWork 5 ###
+* 4% of final grade (Note: the five homework problems contribute to a total of 20% of final grade)
+* <font color="red"> Due Friday March 24 @ 5:00PM </font>
+* [Problem Description](HW5.pdf)
+  
+### Final Project ###
+* 60% of final grade 
+* <font color="red">Due Monday May 1 5:00PM</font>
+* [Project Description and Requirements](Project/) 
+<!---* [Project Description and Requirements]() --->
+<!---* [Project Assignments]()--->
+* [Project Assignments](Project_Assignments/)
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+## Guides ##
+### Getting Started ###
 
-- Bulleted
-- List
+1. [Logging Into the Computing Clusters](Clusters/)
+2. [Basic UNIX](UNIX/)
+3. [Python Tutorial](Python/)
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+### Atomic Simulation Environment ###
 
-[Link](url) and ![Image](src)
-```
+1. [Introduction to ASE](ASE/)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Resources ###
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/CCML-UCONN/ccml.uconn.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+1. [UNIX Tutorial for Beginners](http://www.ee.surrey.ac.uk/Teaching/Unix/)
+2. [Top 10 Best Cheat Sheets and Tutorials for Linux / UNIX Commands](https://www.cyberciti.biz/tips/linux-unix-commands-cheat-sheets.html)
+3. Intro to [Vim](https://www.cs.colostate.edu/helpdocs/vi.html) and [Nano](https://www.nano-editor.org/dist/v2.0/nano.html)
+4. [Atomic Simulation Environment](https://wiki.fysik.dtu.dk/ase/)
+5. [CatApp](http://slac.stanford.edu/~strabo/catapp/catapp.htm)
+6. [Searchable CatApp](http://web.stanford.edu/~ctsai89/cgi-bin/apps/katapp/search)
+7. [Scaling Relations Plotter](http://web.stanford.edu/~ctsai89/cgi-bin/apps/katapp/plot)
+8. [CatMAP](https://github.com/SUNCAT-Center/catmap)

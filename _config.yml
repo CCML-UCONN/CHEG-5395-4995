@@ -1,1 +1,8 @@
-theme: jekyll-theme-cayman
+# Site settings
+title: CBE544 2017
+subtitle: 
+url: "http://CBE544.github.io"
+baseurl: ""
+
+# Build settings
+permalink: pretty
