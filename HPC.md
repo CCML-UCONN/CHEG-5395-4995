@@ -1,6 +1,6 @@
 ---
-mathjax: false 
-permalink: /Clusters/
+mathjax: false
+permalink: /HPC/
 ---
 
 # Getting Started
@@ -67,7 +67,7 @@ In a terminal:
 ssh -X username@stampede.tacc.utexas.edu
 ```
 
-### Windows 
+### Windows
 Launch Xming. You will always need to have this open in order to forward graphical windows from the external clusters.
 
 Start PuTTY, and:
@@ -94,7 +94,7 @@ ____
 For the **first login** only, run the following command:
 
 ```bash
-cp /home1/03672/tg829713/vojgroup/bash_script/bashrc_copy ~/.bashrc 
+cp /home1/03672/tg829713/vojgroup/bash_script/bashrc_copy ~/.bashrc
 source ~/.bashrc
 ```
 
@@ -120,7 +120,7 @@ chmod g+rX CBE544
 
 **Perform all your calculations from the work/CBE544**
 
-For example, Create a folder `hw5` under `CBE544` and perform all calculations of HW5 in `hw5`. If you have already started you jobs somewhere else, you can copy the entire folder to CBE544 once you have done all calculations (e.g. `cp -r folderpath ~/work/CBE544/hw5`).  However, you need to complete this step before sending us the report of HW5, and please include the path of `CBE544` folder in your report or email. You can obtain the path by 
+For example, Create a folder `hw5` under `CBE544` and perform all calculations of HW5 in `hw5`. If you have already started you jobs somewhere else, you can copy the entire folder to CBE544 once you have done all calculations (e.g. `cp -r folderpath ~/work/CBE544/hw5`).  However, you need to complete this step before sending us the report of HW5, and please include the path of `CBE544` folder in your report or email. You can obtain the path by
 
 ```bash
 cdw
@@ -153,5 +153,3 @@ and make sure the following commands work:
 import ase
 import numpy
 ```
-
-

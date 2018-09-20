@@ -1,11 +1,10 @@
 ---
-layout: page
 mathjax: false
 permalink: /Python/
 ---
 
 # Getting Started
-1. [Logging Into the Computing Clusters](../Clusters/)
+1. [Logging Into the Computing Clusters](../HPC/)
 2. [Basic UNIX](../UNIX/)
 3. [Python](../Python/)
 
@@ -44,13 +43,13 @@ Python can be run in different ways. In the terminal, run `python` to access the
 
 The interactive prompt is useful for testing small pieces of code, but it quickly becomes impractical for non-trivial tasks.  More typically, you will be writing all your code in a `.py` file and then using the `python` command to execute the script
 ```bash
-python scriptname.py arg1 arg2 
+python scriptname.py arg1 arg2
 ```
 
 this will use the `python` command to execute `scriptname.py`, taking in arguments `arg1`, `arg2`, and etc. You can also execute a script and then run additional commands interactively using the `-i` flag.
 
 ```bash
-python -i scriptname.py arg1 arg2 
+python -i scriptname.py arg1 arg2
 ```
 
 This will execute `scriptname.py` taking in arguments `arg1` and `arg2`, and then open the interactive prompt. You can access all variables, modules, and etc. that are available in `scriptname.py`.
@@ -63,7 +62,7 @@ Here are some basic data types for numbers:
 
 ```python
 i = 1     # an integer
-i = 3/2   # −−>1, also an integer 
+i = 3/2   # −−>1, also an integer
 i = 3./2  # −−>1.5
 i = 3/2.  # −−>1.5
 i = 2**0.5      #−−>sqrt(2)
@@ -76,7 +75,7 @@ i = int(1.)   # an integer
 i = float(1)  # a floating point number
 ```
 
-Strings must be terminated with the same type of quotation, either `'` or `"`. 
+Strings must be terminated with the same type of quotation, either `'` or `"`.
 
 ```python
 a = 'a "string"'              # using single quotations
@@ -85,7 +84,7 @@ b = "and another 'string'"    # using double quotations
 They can be concatenated by using the `+` operator
 
 ```python
-c = a + b 
+c = a + b
 ```
 
 You can also convert numbers into strings using `str()`
@@ -101,7 +100,7 @@ number = int('10')    # an integer
 number = float('10')  # a floating point
 ```
 
-Strings are containers whose elements can be accessed by their index using square brackets `[ ]` 
+Strings are containers whose elements can be accessed by their index using square brackets `[ ]`
 
 ```python
 print b[1:3]  # prints 'nd'
@@ -221,7 +220,7 @@ Many methods are available for modifying lists
 
 ```python
 c = [3,1,2]
-c.sort()      #−> 1,2,3 
+c.sort()      #−> 1,2,3
 c.reverse()   #−> 3,2,1
 c.pop(1)      #−> 3,1
 print len(c)  #−> 2

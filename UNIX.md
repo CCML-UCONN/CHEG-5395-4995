@@ -1,6 +1,5 @@
 ---
-layout: page
-mathjax: false 
+mathjax: false
 permalink: /UNIX/
 ---
 
@@ -37,42 +36,42 @@ ____
 ```bash
 cd ..
 ```
-Move up one directory. 
+Move up one directory.
 
 ____
 
 ```bash
 cd <directory_name>
 ```
-Changes directory to the one provided. If no directory is given, the default is to return you to your home directory (/home/username/) 
+Changes directory to the one provided. If no directory is given, the default is to return you to your home directory (/home/username/)
 
 ____
 
 ```bash
 cp <source_file_with_path> <destination_path>
 ```
-Copies files or directories from the source_file_with_path to the destination_path 
+Copies files or directories from the source_file_with_path to the destination_path
 
 ____
 
 ```bash
 cp -r <source_file_with_path> <destination_path>
 ```
-Copy recursively. Useful for copying multiple files and directories (copies contents of the subdirectories). 
+Copy recursively. Useful for copying multiple files and directories (copies contents of the subdirectories).
 
 ____
 
 ```bash
 cp -u <source_file_with_path> <destination_path>
 ```
-Update. Copies only if the source file is newer than the destination file or the destination file does not exist. 
+Update. Copies only if the source file is newer than the destination file or the destination file does not exist.
 
 ____
 
 ```bash
 mkdir <directory_name>
 ```
-Create new a new directory. 
+Create new a new directory.
 
 ____
 
@@ -100,14 +99,14 @@ ____
 ```bash
 ls -la
 ```
-List all files even those starting with a dot '.' which are generally not listed. 
+List all files even those starting with a dot '.' which are generally not listed.
 
 ____
 
 ```bash
 ls | more
 ```
-If the number of files in a directory is too large to fit in a single screen this command lists files and directories page after page on spacebar keystroke. 
+If the number of files in a directory is too large to fit in a single screen this command lists files and directories page after page on spacebar keystroke.
 
 ____
 
@@ -128,7 +127,7 @@ ____
 ```bash
 rm -r <file_or_directory_with_path>
 ```
-Remove file or the directory and its contents recursively. 
+Remove file or the directory and its contents recursively.
 
 ____
 
@@ -167,12 +166,12 @@ Any number of characters. Example: ```ls *.traj``` will list all ```.traj``` fil
 <a name='text-editors'></a>
 
 ## Text Editors
-There are several text editors available. Popular ones include [vim](https://www.cs.colostate.edu/helpdocs/vi.html) and [nano](https://www.nano-editor.org/dist/v2.0/nano.html). 
+There are several text editors available. Popular ones include [vim](https://www.cs.colostate.edu/helpdocs/vi.html) and [nano](https://www.nano-editor.org/dist/v2.0/nano.html).
 
 <a name='submitting-jobs'></a>
 
 ## Submitting Jobs
-These instructions are specific to the **Stampede** cluster. 
+These instructions are specific to the **Stampede** cluster.
 
 ```bash
 sbatch <script_file>
@@ -191,7 +190,7 @@ I recommend specifying `--job-name=$PWD` so it will set the current directory as
 sq
 ```
 
-Check the status of your jobs. You will get something like the following: 
+Check the status of your jobs. You will get something like the following:
 
 ```
            JOBID   PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
@@ -201,22 +200,20 @@ Check the status of your jobs. You will get something like the following:
 ____
 
 
-Shows more useful details about the job, including the working directory of the script. 
+Shows more useful details about the job, including the working directory of the script.
 ```bash
 squeue -u $USER -o '%.7i %.9P %.8j %.8u %.2t %.10M %.6D %R %Z'
 ```
-You will get something like the following: 
+You will get something like the following:
 
 ```
 JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON) WORK_DIR
 8345154 developme     test tg829713  R       1:12      1 c558-104 /work/03672/tg829713/scaling/QE/test
 ```
 ____
-To delete your job. You can get the job ID from ```sq``` and use scancel to delete it. 
+To delete your job. You can get the job ID from ```sq``` and use scancel to delete it.
 
 ```bash
 scancel <job_ID>
 ```
 ____
-
-
