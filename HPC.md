@@ -14,7 +14,7 @@ ____
 Once you account on Stampede has been activated. Follow the instructions and tests to make sure everything is set up properly and functional.
 
 ## Contents
-1. [Installation](#installation)
+1. [Required Installation](#installation)
 2. [Logging On](#logging)
 3. [First Time Logging On](#first-time)
 4. [Making Sure Everything Works](#testing)
@@ -44,14 +44,17 @@ Download and install:
 * [Xming](http://sourceforge.net/projects/xming/) (Note: disable automatic installation of PuTTY with Xming. The above installer is a newer version)
 
 
+## Getting an Account
+
+### HPC-Storrs
+
+### TACC-Stampede
+Our TACC-Stampede allocation is managed through XSEDE funded by NSF. Please visit XSEDE user portal first to [create an account](https://portal.xsede.org/my-xsede?p_p_id=58&p_p_lifecycle=0&p_p_state=maximized&p_p_mode=view&_58_struts_action=%2Flogin%2Fcreate_account). After the submission of the account request, you will receive an approval email in 24-48 hrs. Log onto your XSEDE account and check your TACC-Stampede account [here](https://www.xsede.org/group/xup/accounts)username(most probably start with **tgxxxxxx**).
+
+Go to [TACC user portal](https://portal.tacc.utexas.edu/home) and click ""**Log in with TACC ACCOUNT**", put your username (**tgxxxxxx**) and password to login. If you don't know your password, you might want to try "**Forgot your password**". After login, You will also be asked to setup the Mulit-factor Authorization.
+
 ## Logging onto the Clusters
-
-For the [*Stampede*](https://www.tacc.utexas.edu/stampede/) cluster, make sure to read through the User Guide [here](https://portal.tacc.utexas.edu/user-guides/stampede).
-
-login with your Stampede username (most probably start with *tgxxxxxx*, check your account [here](https://www.xsede.org/group/xup/accounts))and password (you will aslo be asked for Mulit-factor Authorization).
-
 Follow the instructions below for your system:
-
 ### Mac OSX
 
 Open "Applications-> Utilities -> Terminal" or "Command+Space" to search Terminal using "spotlight search"
