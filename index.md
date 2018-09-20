@@ -1,7 +1,4 @@
----
-mathjax: false 
-permalink: /
----
+
 
 This website contains information about the CBE544 final course project, the homework problem set 5, as well as some tutorials to help you along the way.
 
