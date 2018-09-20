@@ -1,0 +1,15 @@
+From Johannes -- 
+
+Two small updates should be made to the scripts for the exercises:
+
+First of all, the first line of all scripts should be changed from #!/home/vossj/suncat/bin/python to
+#!/usr/bin/env /home/vossj/suncat/bin/python
+(This way the scripts will also work on the CEES cluster).
+
+Secondly, add
+psppath='/home/vossj/suncat/psp/gbrv1.5pbe'
+to all calculator definitions, because we are using these pseudopotentials for all new projects, and on the CEES cluster, I haven't even installed a 'default' set of pseudopotentials.
+
+Remember that one cannot run jobs in the home directories on the cees cluster, but we should create directories in /data/cees
+
+Another important change to the scripts is that for the Sherlock users, it should have -p iric (instead of -p slac) in the header. I have blocked access for the course to the general queues (that you would without the -p flag).
