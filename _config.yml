@@ -6,3 +6,5 @@ baseurl: ""
 
 # Build settings
 permalink: pretty
+
+theme: jekyll-theme-cayman
