@@ -1,23 +1,19 @@
+---
+mathjax: false
+permalink: /
+---
 
+Welcome to the Github website for Computational Catalysis and Materials (CCM) group at UCONN.
 
-This website contains information about the CBE544 final course project, the homework problem set 5, as well as some tutorials to help you along the way.
+Research in the CCM group is mostly done using the [Vienna Ab initio Simulation Package (VASP)](https://www.vasp.at) and [Quantum ESPRESSO (QE)](http://github.com/vossjo/ase-espresso). We also use [Atomic Simulation Environment](https://wiki.fysik.dtu.dk/ase/) and other tools to visualize, manipulate and post-process calculations. Computing resources in the CCM group are provided by [UCONN's HPC facility on the Storrs campus](https://hpc.uconn.edu/storrs/) and [Texas Advanced Computing Center (TACC)](https://www.tacc.utexas.edu)'s [Stampede system](https://portal.tacc.utexas.edu/user-guides/stampede). 
 
-We will be using the [Atomic Simulation Environment (ASE)](https://wiki.fysik.dtu.dk/ase/) with the [ASE interface for the Quantum ESPRESSO calculator](http://github.com/vossjo/ase-espresso). Computing resources will be provided by [Texas Advanced Computing Center (TACC)](https://www.tacc.utexas.edu)'s [Stampede system](https://portal.tacc.utexas.edu/user-guides/stampede) The tutorials cover the basic usage of the UNIX shell, scripting in Python, and performing calculations using ASE. As part of the requirements for the final project, you will need to have passed HW5 before even starting the final project and you will have to complete the exercises by their respective deadlines.
+This website provides useful instructions and resources for research in our group, including but not limited to:
 
-## Projects ##
-
-### HomeWork 5 ###
-* 4% of final grade (Note: the five homework problems contribute to a total of 20% of final grade)
-* <font color="red"> Due Friday March 24 @ 5:00PM </font>
-* [Problem Description](HW5.pdf)
-  
-### Final Project ###
-* 60% of final grade 
-* <font color="red">Due Monday May 1 5:00PM</font>
-* [Project Description and Requirements](Project/) 
-<!---* [Project Description and Requirements]() --->
-<!---* [Project Assignments]()--->
-* [Project Assignments](Project_Assignments/)
+1. Setting up accounts on high performance computing (HPC) clusters.
+2. Tutorials for UNIX command lines and Python.
+3. Running Jobs on clusters.
+4. Resources.
+5. Codes developed in the CCM group.
 
 
 ## Guides ##
