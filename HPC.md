@@ -97,7 +97,7 @@ ____
 For the **first login** only, run the following command:
 
 ```bash
-cp //home/liz18025/Group/share/bash/bashrc_copy ~/.bashrc
+cp /home/liz18025/Group/share/bash/bashrc_copy ~/.bashrc
 source ~/.bashrc
 ```
 
