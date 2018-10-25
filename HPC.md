@@ -65,12 +65,15 @@ In a terminal:
 ssh -X username@stampede.tacc.utexas.edu
 ```
 
+```bash
+ssh -X NetID@login.storrs.hpc.uconn.edu
+```
 ### Windows
 Launch Xming. You will always need to have this open in order to forward graphical windows from the external clusters.
 
 Start PuTTY, and:
 
-* “Session” → “Host Name” `username@stampede.tacc.utexas.edu` for **Stampede**
+* “Session” → “Host Name” `username@stampede.tacc.utexas.edu` for **Stampede** and `NetID@login.storrs.hpc.uconn.edu` for **HPC-Storrs**
 * “Connection” → “SSH” → “X11” check “Enable X11 forwarding”
 * Back in “Session”, you can **save these settings for next time**.
 
@@ -83,53 +86,29 @@ In a terminal:
 ```bash
 ssh -X username@stampede.tacc.utexas.edu
 ```
+```bash
+ssh -X NetID@login.storrs.hpc.uconn.edu
+```
 ____
 
 <a name='first-time'></a>
 
 ### First Time Logging in ###
-
 For the **first login** only, run the following command:
 
 ```bash
-cp /home1/03672/tg829713/Group/bash_script/bashrc_copy ~/.bashrc
+cp //home/liz18025/Group/share/bash/bashrc_copy ~/.bashrc
 source ~/.bashrc
 ```
 
-This will enable you to run specific software on the Stampede cluster, including the ASE interface to Quantum ESPRESSO.
+This will enable you to run specific software on the HCP-Storrs cluster, including the ASE interface to Quantum ESPRESSO.
 
-There are two file partitions, the `home` and the `work` partition. Go ahead and make a symbolic link to the `work` partition using:
-
-```bash
-ln -s $WORK work
-```
-
-**Change the permission of files:**
+There are two file partitions, the `home` and the `scratch` partition. Go ahead and make a symbolic link to the `scratch` partition using (replace XXXXXXX with your UCONN NetID):
 
 ```bash
-cd
-cd work
-mkdir CBE544
-chmod g+X $WORK
-chgrp -R G-818582 CBE544
-chmod g+s CBE544
-chmod g+rX CBE544
+mkdir -p /scratch/XXXXXXX
+ln -s /scratch/XXXXXXX scratch
 ```
-
-**Perform all your calculations from the work/CBE544**
-
-For example, Create a folder `hw5` under `CBE544` and perform all calculations of HW5 in `hw5`. If you have already started you jobs somewhere else, you can copy the entire folder to CBE544 once you have done all calculations (e.g. `cp -r folderpath ~/work/CBE544/hw5`).  However, you need to complete this step before sending us the report of HW5, and please include the path of `CBE544` folder in your report or email. You can obtain the path by
-
-```bash
-cdw
-cd CBE544
-pwd
-```
-
-<a name='first-time-cees'></a>
-____
-
-<a name='testing'></a>
 
 ## Making Sure Everything Works ##
 
