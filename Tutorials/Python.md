@@ -1,6 +1,6 @@
 ---
 mathjax: false
-permalink:/Tutorials/Python/
+permalink: /Tutorials/Python/
 ---
 
 # Getting Started
