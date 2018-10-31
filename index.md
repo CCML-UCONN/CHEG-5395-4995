@@ -13,7 +13,9 @@ This website provides useful instructions and resources for research in our grou
 
 ### Getting Started ###
 * [Setting up accounts on HPC clusters.](HPC/PREREQUISITE)
-* Tutorials for [UNIX command lines](UNIX/) and [Python](Python/).
+* Tutorials
+  1. [UNIX command lines](/UNIX/)
+  2. [Python](/Python/)
 
 ### Conducting Calculations ###
 * [Running Jobs on clusters](Jobs/).

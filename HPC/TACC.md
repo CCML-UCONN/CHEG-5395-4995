@@ -5,7 +5,6 @@ permalink: /HPC/TACC
 
 # Getting Started
 1. [Logging Into the Computing Clusters](../Clusters/)
-  *
 2. [Basic UNIX](../UNIX/)
 3. [Python](../Python/)
 
