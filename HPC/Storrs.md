@@ -15,7 +15,8 @@ permalink:  /HPC/Storrs/
 ____
 ## Contents
 1. [First Time Logging On](#first-time)
-2. [Making Sure Everything Works](#testing)
+2. [Quick Tests](#testing)
+3. [Batch Jobs](#batch)
 
 ### First Time Logging in ###
 For the **first login** only, run the following command:
@@ -32,10 +33,9 @@ source ~/.bashrc
 
 This will enable you to run specific software on the HCP-Storrs cluster, including the ASE interface to Quantum ESPRESSO and VASP.
 
-There are two file partitions, the `home` and the `scratch` partition. The above lines created your directory in the `scratch` partition and a symbolic link to under your home directory pointing to your `scratch` directory. The rest of the lines set the group id to *hpc-ccml* and makes the directory only readable and executable to all group members.
- 
-### Quick Tests ###
+There are two file partitions, the **home** and the **scratch** partition. The above lines created your directory in the **scratch** partition and a symbolic link to under your home directory pointing to your **scratch** directory. The rest of the lines set the group id to **hpc-ccml** and makes the directory only readable and executable to all group members.
 
+### Quick Tests ###
 Once you are logged into the terminal, run:
 
 ```bash
@@ -54,3 +54,4 @@ and make sure the following commands work:
 import ase
 import numpy
 ```
+### Batch Jobs ###
