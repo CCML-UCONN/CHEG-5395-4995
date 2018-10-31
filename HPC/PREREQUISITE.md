@@ -21,8 +21,7 @@ Once you account on Stampede has been activated. Follow the instructions and tes
 1. [Required Installation](#installation)
 2. [Getting an Account](#account)
 3. [Logging On](#logging)
-4. [First Time Logging On](#first-time)
-5. [Making Sure Everything Works](#testing)
+
 
 <a name='installation'></a>
 

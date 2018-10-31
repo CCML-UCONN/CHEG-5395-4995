@@ -14,6 +14,8 @@ permalink:  /HPC/Storrs/
 
 ____
 ## Contents
+1. [First Time Logging On](#first-time)
+2. [Making Sure Everything Works](#testing)
 
 ### First Time Logging in ###
 For the **first login** only, run the following command:
