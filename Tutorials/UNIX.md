@@ -1,6 +1,6 @@
 ---
 mathjax: false
-permalink: /UNIX/
+permalink: /Tutorials/UNIX/
 ---
 
 # Getting Started
