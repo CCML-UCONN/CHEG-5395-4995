@@ -1,6 +1,6 @@
 ---
 mathjax: false
-permalink: /HPC/Storrs/
+permalink:  /HPC/Storrs/
 ---
 
 ## Getting Started
@@ -12,8 +12,8 @@ permalink: /HPC/Storrs/
   1. [UNIX Command Lines](/CCML/Tutorials/UNIX/)
   2. [Python](/CCML/Tutorials/Python/)
 
-
 ____
+## Contents
 
 ### First Time Logging in ###
 For the **first login** only, run the following command:
