@@ -1,11 +1,11 @@
 ---
 mathjax: false
-permalink: /HPC/
+permalink: /HPC/Storrs
 ---
 
 ## Getting Started
 * [Setting up accounts on HPC clusters.](../HPC/)
-* Tutorials for [UNIX command lines](../UNIX/) and [Python](../Python/)
+* Tutorials for [UNIX command lines](../../UNIX/) and [Python](../../Python/)
 
 ____
 

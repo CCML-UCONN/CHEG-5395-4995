@@ -1,2 +1,2 @@
-# CBE544.github.io
-Web page for the CBE544 course project.
+# ccml-uconn.github.io
+Web page for the CCML-UCONN.

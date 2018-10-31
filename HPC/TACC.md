@@ -1,10 +1,11 @@
 ---
 mathjax: false
-permalink: /Jobs/
+permalink: /HPC/TACC
 ---
 
 # Getting Started
 1. [Logging Into the Computing Clusters](../Clusters/)
+  *
 2. [Basic UNIX](../UNIX/)
 3. [Python](../Python/)
 
@@ -16,7 +17,7 @@ Most of our jobs require dedication of multiple nodes. Therefore jobs cannot be 
 You can find several different job submission scripts in the following directory:
 `$GRPDIR/share/example/scripts/batch`
 
-Pick the one meets your need most and edit the corresponding fileds.
+Pick the one meets your need most and edit the corresponding fields.
 
 
 

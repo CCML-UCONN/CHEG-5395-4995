@@ -12,7 +12,7 @@ Research in the CCM group is mostly done using the [Vienna Ab initio Simulation 
 This website provides useful instructions and resources for research in our group, including but not limited to:
 
 ### Getting Started ###
-* [Setting up accounts on HPC clusters.](HPC/)
+* [Setting up accounts on HPC clusters.](HPC/PREREQUISITE)
 * Tutorials for [UNIX command lines](UNIX/) and [Python](Python/).
 
 ### Conducting Calculations ###
