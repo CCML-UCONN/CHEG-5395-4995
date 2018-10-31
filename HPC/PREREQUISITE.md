@@ -1,13 +1,13 @@
 ---
 mathjax: false
-permalink: /HPC/PREREQUISITE
+permalink: /HPC/PREREQUISITE/
 ---
 
 ## Getting Started
-*  [Getting your accounts](/HPC/PREREQUISITE)
+*  [Getting your accounts](/HPC/PREREQUISITE/)
 * Setting up accounts on HPC clusters
-  1. [Storrs](/Storrs)
-  2. [TACC](/TACC)
+  1. [Storrs](/Storrs/)
+  2. [TACC](/TACC/)
 * Tutorials
   1. [UNIX Command Lines](/Tutorials/UNIX/)
   2. [Python](/Tutorials/Python/)
