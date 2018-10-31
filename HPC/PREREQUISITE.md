@@ -33,7 +33,7 @@ To prevent X11 from timing out, open the terminal and type:
 
 ```bash
 mkdir -p ~/.ssh
-echo $'\nHost *\n ForwardX11Timeout 1000000\n' >>~/.ssh/config
+echo '\nHost *\n ForwardX11Timeout 1000000\n' >>~/.ssh/config
 ```
 
 

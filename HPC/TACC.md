@@ -16,7 +16,7 @@ Most of our jobs require dedication of multiple nodes. Therefore jobs cannot be 
 You can find several different job submission scripts in the following directory:
 `$GRPDIR/share/example/scripts/batch`
 
-select the 
+Pick the one meets your need most and edit the corresponding fileds.
 
 
 
