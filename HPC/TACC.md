@@ -1,16 +1,22 @@
 ---
 mathjax: false
-permalink: /HPC/TACC
+permalink: /HPC/TACC/
 ---
 
-# Getting Started
-1. [Logging Into the Computing Clusters](../Clusters/)
-2. [Basic UNIX](../UNIX/)
-3. [Python](../Python/)
+## Getting Started
+*  [Getting your accounts](/CCML/HPC/PREREQUISITE/)
+* Setting up accounts on HPC clusters
+  1. [Storrs](/CCML/HPC/Storrs/)
+  2. [TACC](/CCML/HPC/TACC/)
+* Tutorials
+  1. [UNIX Command Lines](/CCML/Tutorials/UNIX/)
+  2. [Python](/CCML/Tutorials/Python/)
 
 ____
 
-# Running Jobs on HPC-Storrs
+This page is still under construction.
+
+# Running Jobs on TACC
 Most of our jobs require dedication of multiple nodes. Therefore jobs cannot be executed on the front node(the node everyone interfaces when logged onto the cluster). The HPC cluster use a job management system to process the resource requirements and its distribution to working/slave nodes. Some more useful information about the batch system on HPC-Storrs can be found [here]()
 
 You can find several different job submission scripts in the following directory:
