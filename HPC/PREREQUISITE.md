@@ -4,13 +4,13 @@ permalink: /HPC/PREREQUISITE/
 ---
 
 ## Getting Started
-*  [Getting your accounts](/HPC/PREREQUISITE/)
+*  [Getting your accounts](/CCML/HPC/PREREQUISITE/)
 * Setting up accounts on HPC clusters
-  1. [Storrs](/Storrs/)
-  2. [TACC](/TACC/)
+  1. [Storrs](/CCML/HPC/Storrs/)
+  2. [TACC](/CCML/HPC/TACC/)
 * Tutorials
-  1. [UNIX Command Lines](/Tutorials/UNIX/)
-  2. [Python](/Tutorials/Python/)
+  1. [UNIX Command Lines](/CCML/Tutorials/UNIX/)
+  2. [Python](/CCML/Tutorials/Python/)
 
 
 ## Logging Into the Computing Clusters
