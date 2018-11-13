@@ -228,6 +228,6 @@ There are several text editors available. Popular ones include [vim](https://www
 2. Go to your **scratch** directory and create a new folder called "trail"
 3. Go to the new folder "trail", and copy a file named "Numb" from "/home/liz18025/Group/share/doc/exercises" to the current directory.
 4. Rename the copied file as "MyNumb"
-5. Now open "MyNumb" with any text-editor: **a.** change the title(first line) from "Numb" to "Not Numb";**b.** insert a new line after the title with your UCONN NetID;**c.** delete the last two lines of this file.
+5. Now open "MyNumb" with any text-editor: **a.** change the title(first line) from "Numb" to "Not Numb"; **b.** insert a new line after the title with your UCONN NetID; **c.** delete the last two lines of this file.
 6. ```grep``` all lines that contains "numb" in the file "MyNumb"
-7. send the path of the current folder to me through Slack or email.
+7. Send the path of the current directory to me through Slack or Email.
