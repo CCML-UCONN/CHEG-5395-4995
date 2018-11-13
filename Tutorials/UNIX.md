@@ -136,7 +136,7 @@ ____
 ```bash
 rmdir <directory_name>
 ```
-Remove an empty directory. Use ```rm -r``` to remove recursively, such as if directory contains files (be careful).
+Remove an empty directory. Use `rm -r` to remove recursively, such as if directory contains files (be careful).
 
 ____
 
@@ -178,7 +178,7 @@ scp username@hostname:directory1/filename1 directory2/filename2
 ```bash
 scp directory2/filename2 username@hostname:directory1/filename1
 ```
-use  ```scp -r``` if your are transferring a directory.
+use  `scp -r` if your are transferring a directory.
 
 <a name='wildcards'></a>
 ## Wildcards
@@ -190,14 +190,14 @@ ____
 ?
 ```
 
-Single character. Example: ```ag neb?.traj neb??.traj``` will use ```ag``` to open all files containing one or two characters between neb and .traj
+Single character. Example: `ag neb?.traj neb??.traj` will use `ag` to open all files containing one or two characters between neb and .traj
 
 ____
 
 ```bash
 *
 ```
-Any number of characters. Example: ```ls *.traj``` will list all ```.traj``` files.
+Any number of characters. Example: `ls *.traj` will list all `.traj` files.
 
 <a name='advanced'></a>
 ## Advanced Commands for File Streaming
@@ -214,7 +214,7 @@ awk
 ```bash
  env|sed -n '/USER/p'|awk -F '=' '{print $2}'
 ```
-The above line reads output from the command ```env```, from the output, ```sed -n '/USER/p'``` finds the line contains the keyword "USER", ```awk -F '=' '{print $2}'``` splits the line using "=" as the separator, and prints the second element.
+The above line reads output from the command `env`, from the output, `sed -n '/USER/p'` finds the line contains the keyword "USER", `awk -F '=' '{print $2}'` splits the line using "=" as the separator, and prints the second element.
 `|` is the separator for pipelines of multiple commands, the next command takes the output of the previous command as the input.
 
 <a name='text-editors'></a>
@@ -229,5 +229,5 @@ There are several text editors available. Popular ones include [vim](https://www
 3. Go to the new folder "trail", and copy a file named "Numb" from "/home/liz18025/Group/share/doc/exercises" to the current directory.
 4. Rename the copied file as "MyNumb"
 5. Now open "MyNumb" with any text-editor: **a.** change the title(first line) from "Numb" to "Not Numb"; **b.** insert a new line after the title with your UCONN NetID; **c.** delete the last two lines of this file.
-6. ```grep``` all lines that contains "numb" in the file "MyNumb"
+6. `grep` all lines that contains "numb" in the file "MyNumb"
 7. Send the path of the current directory to me through Slack or Email.
