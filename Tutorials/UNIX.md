@@ -17,6 +17,7 @@ ____
 2. [Wildcards](#wildcards)
 3. [Advanced Commands](#advanced)
 4. [Text Editors](#text-editors)
+5. [Exercises](#exercises)
 
 
 <a name='basic-commands'></a>
@@ -199,7 +200,7 @@ ____
 Any number of characters. Example: ```ls *.traj``` will list all ```.traj``` files.
 
 <a name='advanced'></a>
-## Advanced Command for File Streaming
+## Advanced Commands for File Streaming
 ```bash
 sed
 ```
@@ -220,3 +221,13 @@ The above line reads output from the command ```env```, from the output, ```sed 
 
 ## Text Editors
 There are several text editors available. Popular ones include [vim](https://www.cs.colostate.edu/helpdocs/vi.html) and [nano](https://www.nano-editor.org/dist/v2.0/nano.html).
+
+<a name='exercises'></a>
+## Exercises
+1. Login to **HPC-Storrs**
+2. Go to your **scratch** directory and create a new folder called "trail"
+3. Go to the new folder "trail", and copy a file named "Numb" from "/home/liz18025/Group/share/doc/exercises" to the current directory.
+4. Rename the copied file as "MyNumb"
+5. Now open "MyNumb" with any text-editor: **a.** change the title(first line) from "Numb" to "Not Numb";**b.** insert a new line after the title with your UCONN NetID;**c.** delete the last two lines of this file.
+6. ```grep``` all lines that contains "numb" in the file "MyNumb"
+7. send the path of the current folder to me through Slack or email.
