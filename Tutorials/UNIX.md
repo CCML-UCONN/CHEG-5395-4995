@@ -132,7 +132,7 @@ ____
 ```bash
 rmdir <directory_name>
 ```
-Remove an empty directory. Use `rm -r` to remove recursively, such as if directory contains files (be careful).
+Remove an empty directory. Use ```rm -r``` to remove recursively, such as if directory contains files (be careful).
 
 ____
 
@@ -144,6 +144,7 @@ or
 more <file_name>
 ```
 Print out contents of a text file or files within the shell.
+
 ____
 
 ```bash
@@ -153,7 +154,7 @@ Search "keyword" in each File.
 
 ____
 ```bash
-man [Command]
+man <command>
 ```
 This is the most powerful command on this page. It prints out the manual of the command, including options and syntax.
 
@@ -173,7 +174,7 @@ scp username@hostname:directory1/filename1 directory2/filename2
 ```bash
 scp directory2/filename2 username@hostname:directory1/filename1
 ```
-use  `scp -r` if your are transferring a directory.
+use  ```scp -r``` if your are transferring a directory.
 
 <a name='wildcards'></a>
 ## Wildcards
@@ -205,7 +206,10 @@ awk
 ```
 [awk](Awk is a scripting language used for manipulating data and generating reports) is a scripting language used for manipulating data and generating reports
 
-
+```bash
+ env|sed -n '/USER/p'|awk -F '=' '{print $2}'
+```
+The above line read output from the command ```env```,```sed -n '/USER/p'``` finds the line contains the keyword "USER", ```awk -F '=' '{print $2}'``` splits the line using "=" as the separator, and prints the second element. `|` is the separator for pipelines of multiple commands, the next command takes the output of the previous command as the input. 
 
 <a name='text-editors'></a>
 
