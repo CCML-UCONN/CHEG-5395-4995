@@ -132,17 +132,50 @@ ____
 ```bash
 rmdir <directory_name>
 ```
-Remove an empty directory. Use rm -r to remove recursively, such as if directory contains files (be careful).
+Remove an empty directory. Use `rm -r` to remove recursively, such as if directory contains files (be careful).
 
 ____
 
 ```bash
-cat <file_name>
+less <file_name>
+```
+or
+```bash
+more <file_name>
 ```
 Print out contents of a text file or files within the shell.
+____
+
+```bash
+grep [keyword] <file_name>
+```
+Search "keyword" in each File.
+
+____
+```bash
+man [Command]
+```
+This is the most powerful command on this page. It prints out the manual of the command, including options and syntax.
+
+____
+
+```bash
+scp [options] username1@source_host:directory1/filename1 username2@destination_host:directory2/filename2
+```
+Securely transfer files between two Unix computers. Most of the time you are transferring files between your local computer and HPC clusters.
+
+**from the cluster to your computer**
+```bash
+scp username@hostname:directory1/filename1 directory2/filename2
+```
+
+**from the cluster to your computer**
+```bash
+scp directory2/filename2 username@hostname:directory1/filename1
+```
+use  `scp -r` if your are transferring a directory.
 
 <a name='wildcards'></a>
-
 ## Wildcards
 Wildcards can be used to perform commands on multiple files simultaneously.
 
@@ -160,6 +193,19 @@ ____
 *
 ```
 Any number of characters. Example: ```ls *.traj``` will list all ```.traj``` files.
+## Advanced Command for File Streaming
+
+```bash
+sed
+```
+[sed](https://www.geeksforgeeks.org/sed-command-in-unix/) command in UNIX is stands for stream editor and it can perform lot’s of function on file like, searching, find and replace, insertion or deletion.
+
+```bash
+awk
+```
+[awk](Awk is a scripting language used for manipulating data and generating reports) is a scripting language used for manipulating data and generating reports
+
+
 
 <a name='text-editors'></a>
 

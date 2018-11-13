@@ -33,9 +33,9 @@ cp /home/liz18025/Group/share/bash/bashrc_copy ~/.bashrc
 source ~/.bashrc
 ```
 
-This will enable you to run specific software on the HCP-Storrs cluster, including the ASE interface to Quantum ESPRESSO and VASP.
+This will enable you to run specific software on the **HCP-Storrs** cluster, including the ASE interface to **VASP** and **Quantum ESPRESSO**.
 
-There are two file partitions, the **home** and the **scratch** partition. The above lines created your directory in the **scratch** partition and a symbolic link to under your home directory pointing to your **scratch** directory. The rest of the lines set the group id to **hpc-ccml** and makes the directory only readable and executable to all group members.
+There are two file systems, **home** and **scratch**. The above lines created your directory under the **scratch** partition and a symbolic link(shortcut) under your home directory pointing to your **scratch** directory. The rest of the lines set the group id to **hpc-ccml** and makes the directory only readable and executable to all group members.
 
 <a name='testing'></a>
 ### Quick Tests ###
@@ -83,7 +83,7 @@ Check the status of your jobs. You will get something like the following:
 
 ```
 JOBID PARTITION       QOS     NAME     USER ST       TIME  NODES   CPUS NODELIST(REASON)
-1775578   general   general vasp.sub liz18025 PD       0:00      5    120 (Resources)         
+1775578   general   general vasp.sub ******* PD       0:00      5    120 (Resources)         
 ```
 ____
 
@@ -96,7 +96,7 @@ You will get something like the following:
 
 ```
 JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON) WORK_DIR
-1775578   general vasp.sub liz18025 PD       0:00      5 (Resources) /gpfs/scratchfs1/liz18025/projects/seed/PdO/lsf-npo/101/high-co-cov/h2_ads/neb/0t/step2/neb
+1775578   general vasp.sub ******* PD       0:00      5 (Resources) /gpfs/scratchfs1/*******/projects/seed/PdO/lsf-npo/101/high-co-cov/h2_ads/neb/0t/step2/neb
 ```
 ____
 To delete your job. You can get the job ID from ```sq``` and use scancel to delete it.

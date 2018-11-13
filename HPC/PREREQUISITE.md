@@ -5,7 +5,7 @@ permalink: /HPC/PREREQUISITE/
 
 ## Getting Started
 * [Setting up your accounts](/CCML/HPC/PREREQUISITE/)
-* Hands-on available HPC resource
+* Hands-on intro to available HPC resource
   1. [Storrs](/CCML/HPC/Storrs/)
   2. [TACC](/CCML/HPC/TACC/)
 * Tutorials
@@ -47,7 +47,7 @@ Download and install:
 * [PuTTY](http://www.putty.org/)
 * [Xming](http://sourceforge.net/projects/xming/) (Note: disable automatic installation of PuTTY with Xming. The above installer is a newer version)
 
-
+<a name='account'></a>
 ## Getting an Account
 
 ### HPC-Storrs
@@ -58,6 +58,8 @@ Our TACC-Stampede allocation is managed through XSEDE funded by NSF. Please visi
 
 Go to [TACC user portal](https://portal.tacc.utexas.edu/home) and click "**Log in with TACC ACCOUNT**", put your username ("**tgxxxxxx**) and password to login. If you don't know your password, you might want to try "**Forgot your password**". After login, You will also be asked to setup the Multi-factor Authorization.
 
+
+<a name='logging'></a>
 ## Logging onto the Clusters
 Follow the instructions below for your system:
 ### Mac OSX
