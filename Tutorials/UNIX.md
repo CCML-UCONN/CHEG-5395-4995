@@ -15,7 +15,10 @@ ____
 ## Contents
 1. [Basic Comamands](#basic-commands)
 2. [Wildcards](#wildcards)
-3. [Text Editors](#text-editors)
+3. [Advanced Commands](#advanced)
+4. [Text Editors](#text-editors)
+
+
 <a name='basic-commands'></a>
 
 ## Basic Commands
@@ -194,8 +197,9 @@ ____
 *
 ```
 Any number of characters. Example: ```ls *.traj``` will list all ```.traj``` files.
-## Advanced Command for File Streaming
 
+<a name='advanced'></a>
+## Advanced Command for File Streaming
 ```bash
 sed
 ```
@@ -209,7 +213,8 @@ awk
 ```bash
  env|sed -n '/USER/p'|awk -F '=' '{print $2}'
 ```
-The above line read output from the command ```env```,```sed -n '/USER/p'``` finds the line contains the keyword "USER", ```awk -F '=' '{print $2}'``` splits the line using "=" as the separator, and prints the second element. `|` is the separator for pipelines of multiple commands, the next command takes the output of the previous command as the input. 
+The above line reads output from the command ```env```, from the output, ```sed -n '/USER/p'``` finds the line contains the keyword "USER", ```awk -F '=' '{print $2}'``` splits the line using "=" as the separator, and prints the second element.
+`|` is the separator for pipelines of multiple commands, the next command takes the output of the previous command as the input.
 
 <a name='text-editors'></a>
 
