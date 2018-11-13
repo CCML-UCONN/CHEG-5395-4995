@@ -4,7 +4,7 @@ permalink: /Tutorials/UNIX/
 ---
 
 # Getting Started
-1. [Logging Into the Computing Clusters](../Clusters/)
+1. [Logging Into the Computing Clusters](/CCML/HPC/PREREQUISITE/)
 2. [Basic UNIX](../UNIX/)
 3. [Python](../Python/)
 
