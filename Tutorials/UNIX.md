@@ -16,8 +16,6 @@ ____
 1. [Basic Comamands](#basic-commands)
 2. [Wildcards](#wildcards)
 3. [Text Editors](#text-editors)
-4. [Submitting Jobs](#submitting-jobs)
-
 <a name='basic-commands'></a>
 
 ## Basic Commands
@@ -167,53 +165,3 @@ Any number of characters. Example: ```ls *.traj``` will list all ```.traj``` fil
 
 ## Text Editors
 There are several text editors available. Popular ones include [vim](https://www.cs.colostate.edu/helpdocs/vi.html) and [nano](https://www.nano-editor.org/dist/v2.0/nano.html).
-
-<a name='submitting-jobs'></a>
-
-## Submitting Jobs
-These instructions are specific to the **Stampede** cluster.
-
-```bash
-sbatch <script_file>
-```
-Submit the job defined by the script file to the queue.
-
-____
-
-```bash
-sbatch --job-name=$PWD <script_file>
-```
-
-I recommend specifying `--job-name=$PWD` so it will set the current directory as the job name. This way you will have this information in the email.
-
-```bash
-sq
-```
-
-Check the status of your jobs. You will get something like the following:
-
-```
-           JOBID   PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
-           8345154 development     test tg829713  R       0:17      1 c558-104
-```
-
-____
-
-
-Shows more useful details about the job, including the working directory of the script.
-```bash
-squeue -u $USER -o '%.7i %.9P %.8j %.8u %.2t %.10M %.6D %R %Z'
-```
-You will get something like the following:
-
-```
-JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON) WORK_DIR
-8345154 developme     test tg829713  R       1:12      1 c558-104 /work/03672/tg829713/scaling/QE/test
-```
-____
-To delete your job. You can get the job ID from ```sq``` and use scancel to delete it.
-
-```bash
-scancel <job_ID>
-```
-____

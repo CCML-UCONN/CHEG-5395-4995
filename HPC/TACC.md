@@ -4,8 +4,8 @@ permalink: /HPC/TACC/
 ---
 
 ## Getting Started
-*  [Getting your accounts](/CCML/HPC/PREREQUISITE/)
-* Setting up accounts on HPC clusters
+* [Setting up your accounts](/CCML/HPC/PREREQUISITE/)
+* Hands-on available HPC resource
   1. [Storrs](/CCML/HPC/Storrs/)
   2. [TACC](/CCML/HPC/TACC/)
 * Tutorials
