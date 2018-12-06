@@ -1,6 +1,6 @@
 ---
 mathjax: true
-permalink: /QE/
+permalink: /DFT/QE/
 published: true
 ---
 

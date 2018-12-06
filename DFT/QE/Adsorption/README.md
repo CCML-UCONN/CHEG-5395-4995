@@ -1,6 +1,6 @@
 ---
 mathjax: true
-permalink: /QE/Adsorption/
+permalink: /DFT/QE/Adsorption/
 ---
 
 # ASE Tutorials

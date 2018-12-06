@@ -1,6 +1,6 @@
 ---
 mathjax: true
-permalink: /QE/Getting_Started/
+permalink: /DFT/QE/Getting_Started/
 ---
 
 # ASE Tutorials

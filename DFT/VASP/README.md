@@ -1,6 +1,6 @@
 ---
 mathjax: true
-permalink: /VASP/
+permalink: /DFT/VASP/
 published: true
 ---
 
