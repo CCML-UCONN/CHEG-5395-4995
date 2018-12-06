@@ -12,13 +12,13 @@ Research in the CCM group is mostly done using the [Vienna Ab initio Simulation 
 This website provides useful instructions and resources for research in our group, including but not limited to:
 
 ### Getting Started ###
-* ~~[Setting up accounts on HPC clusters.](HPC/PREREQUISITE)~~
+* [Setting up accounts on HPC clusters.](HPC/PREREQUISITE)
 * Tutorials
   1. [UNIX Command Lines](Tutorials/UNIX/)
   2. [Python](Tutorials/Python/)
 
 ### Conducting Calculations ###
-* [Running Jobs on clusters](Jobs/).
+* ~~[Running Jobs on clusters](Jobs/).~~
 * Introduction to packages.
   1. [ASE](ASE/)
   2. [VASP](VASP/)
