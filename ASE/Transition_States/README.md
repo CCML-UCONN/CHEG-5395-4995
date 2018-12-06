@@ -1,5 +1,4 @@
 ---
-layout: page
 mathjax: false
 permalink: /ASE/Transition_States/
 ---
@@ -56,7 +55,7 @@ The fixed bond length (FBL) method is a much faster but cruder way to approximat
 
 In a FBL calculation, you provide an initial state, then, you iteratively decrease the distance between the two atoms and optimize the geometry of the entire structure while keeping the bond length fixed. This will approximate the minimum energy pathway (MEP) between the initial and final states. Since we are iteratively decreasing the distance, our input in this case would correspond to the *final* state in our N<sub>2</sub> dissociation reaction. We then fix the bond length between the two N\* atoms that are required to come together and form a bond. We are thus calculating the reverse reaction: 2N\* → N<sub>2</sub> + 2\*. Follow the [`fbl.py`](fbl.py) script to determine the transition state for the dissociative adsorption of N<sub>2</sub> on your metal. The script requires an initial state and a specification of the two atoms whose distance is to be fixed (the two N* atoms).
 
-When deciding which of your 2N\* states to include, you should consider all fully dissociated states within 0.5 eV of the lowest energy configuration, to ensure that you have found the lowest possible barrier. Note that we want to find the barrier for N<sub>2</sub> dissociation, so any configuration you found that is not dissociated (N<sub>2</sub>\* rather than 2N\*) should be ignored. 
+When deciding which of your 2N\* states to include, you should consider all fully dissociated states within 0.5 eV of the lowest energy configuration, to ensure that you have found the lowest possible barrier. Note that we want to find the barrier for N<sub>2</sub> dissociation, so any configuration you found that is not dissociated (N<sub>2</sub>\* rather than 2N\*) should be ignored.
 
 ```python
 atom1=12
@@ -189,7 +188,7 @@ $$
 $$
 
 
-**<font color="red">Requirement:</font>** 
+**<font color="red">Requirement:</font>**
 
 * Plot the log of the rate constant versus the inverse temperature.
 
@@ -205,7 +204,7 @@ In the `neb.py` file make sure the line specifying the number of nodes.
 ```python
 #SBATCH --nodes=5
 ```
-corresponds to the number of _intermediate_ images. Check that `intermediate_images = 5` matches. 
+corresponds to the number of _intermediate_ images. Check that `intermediate_images = 5` matches.
 
 Both `neb.py` and `neb_restart.py` scripts require the initial and final states of the reaction path to be provided. This is specified in the lines:
 

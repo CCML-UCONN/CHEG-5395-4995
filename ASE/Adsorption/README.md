@@ -1,5 +1,4 @@
 ---
-layout: page
 mathjax: true
 permalink: /ASE/Adsorption/
 ---

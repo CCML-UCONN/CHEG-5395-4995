@@ -1,5 +1,4 @@
 ---
-layout: page
 mathjax: true
 permalink: /ASE/Getting_Started/
 ---
@@ -30,7 +29,7 @@ In the first exercise, we will be studying MXenes and how to determine their lat
 
 ASE scripts can be run directly in the terminal (in the login node) or submitting to external nodes. Generally, you will be submitting jobs to external nodes and only small scripts will be run on the login node. By default, all output from any submitted script will be written *from the directory where the submission command was executed*, so make sure you are inside the calculation folder before running the submission command.
 
-There are two files that are necessary to run jobs on the Stampede cluster. The first is `spede_esp.sub`; this is the file that tells the scheduler how much time the job is allowed, how many processors it requires, and other pertinent information. First, notice the comments in the beginning. These include information such as how much time to allocate, the number of nodes required, what the names of the output and error files are, what the name of the job should be, and what your email is. 
+There are two files that are necessary to run jobs on the Stampede cluster. The first is `spede_esp.sub`; this is the file that tells the scheduler how much time the job is allowed, how many processors it requires, and other pertinent information. First, notice the comments in the beginning. These include information such as how much time to allocate, the number of nodes required, what the names of the output and error files are, what the name of the job should be, and what your email is.
 
 ```bash
 #!/bin/bash
@@ -97,7 +96,7 @@ calc = espresso(pw=700,             #plane-wave cutoff
 
 ```
 
-Finally, the Quantum ESPRESSO calculator is attached to the `slab` Atoms object, the energy calculation is ran, and the total energy of the system is output in the log file (defined in the `spede_esp.sub` file above). 
+Finally, the Quantum ESPRESSO calculator is attached to the `slab` Atoms object, the energy calculation is ran, and the total energy of the system is output in the log file (defined in the `spede_esp.sub` file above).
 
 To submit the job, use:
 
@@ -120,7 +119,7 @@ Remember to change the script name to Lattice_Constant.py in the `spede_esp.sub`
 ```bash
 sbatch --job-name=$PWD spede_esp.sub
 ```
-Here, `--job-name=$PWD` sets the current working directory as the job name. 
+Here, `--job-name=$PWD` sets the current working directory as the job name.
 
 The output states the energy with respect to the given lattice constant. Take this data and plot it however you choose. Fit ~5 points near the minimum of this function with a quadratic function. Then, use calculus to find the minimum energy, and thus the DFT lattice constant.
 

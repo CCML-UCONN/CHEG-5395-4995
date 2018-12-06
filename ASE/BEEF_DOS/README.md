@@ -1,5 +1,4 @@
 ---
-layout: page
 mathjax: false
 permalink: /ASE/BEEF_DOS/
 ---

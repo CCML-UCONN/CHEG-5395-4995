@@ -4,7 +4,7 @@ permalink: /VASP/
 published: true
 ---
 
-# ASE Tutorials
+# Atomic Simulation Environment (ASE)
 1. [Introduction to ASE](../ASE/)
 2. [Getting Started with DFT Calculations](Getting_Started/)
 3. [Adsorption](Adsorption/)
