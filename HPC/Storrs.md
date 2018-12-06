@@ -26,9 +26,9 @@ For the **first login** only, run the following command:
 ```bash
 mkdir -p /scratch/$USER
 ln -s /scratch/$USER $HOME/scratch
-chgrp -R hpc-ccml ~/scratch
-chmod g+s ~/scratch
-chmod -R 750 ~/scratch
+chgrp -R hpc-ccml /scratch/$USER
+chmod g+s /scratch/$USER
+chmod -R 750 /scratch/$USER
 cp /home/liz18025/Group/share/bash/bashrc_copy ~/.bashrc
 source ~/.bashrc
 ```
