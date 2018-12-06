@@ -1,5 +1,4 @@
 ---
-layout: page
 mathjax: true
 permalink: /ASE/
 published: true
@@ -52,7 +51,7 @@ Log on to Stampede, download an example and take a look (the other files will al
 
 ```bash
 wget https://cbe544.github.io/ASE/archive.tar.gz
-tar -zxvf archive.tar.gz 
+tar -zxvf archive.tar.gz
 cd Archive
 ase-gui Ti2C.traj
 ```
