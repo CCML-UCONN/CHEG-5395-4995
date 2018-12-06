@@ -21,8 +21,8 @@ This website provides useful instructions and resources for research in our grou
 * ~~[Running Jobs on clusters](Jobs/).~~
 * Introduction to packages.
   1. [ASE](ASE/)
-  2. [VASP](VASP/)
-  3. [ase-espresso](ASE/)
+  2. ~~[VASP](VASP/)~~
+  3. ~~Quantum Espresso~~
 
 ### Our Codes ###
 
