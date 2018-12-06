@@ -1,6 +1,6 @@
 ---
 mathjax: false
-permalink: /ASE/BEEF_DOS/
+permalink: /QE/BEEF_DOS/
 ---
 
 # ASE Tutorials

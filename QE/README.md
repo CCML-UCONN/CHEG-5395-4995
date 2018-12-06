@@ -1,12 +1,14 @@
 ---
 mathjax: true
-permalink: /ASE/
+permalink: /QE/
 published: true
 ---
 
 # ASE Tutorials
-1. [Introduction to ASE](../ASE/)
-2. ~~[Getting Started with DFT Calculations](Getting_Started/)~~
+1. ~~[Introduction to ASE](../ASE/)~~
+1. [Getting Started with DFT Calculations](Getting_Started/)
+2. [Adsorption](Adsorption/)
+
 ____
 
 ## Introduction to ASE

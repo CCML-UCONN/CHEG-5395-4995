@@ -1,6 +1,6 @@
 ---
 mathjax: false
-permalink: /ASE/Transition_States/
+permalink: /QE/Transition_States/
 ---
 
 # ASE Tutorials
