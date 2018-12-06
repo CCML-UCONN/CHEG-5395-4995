@@ -21,8 +21,9 @@ This website provides useful instructions and resources for research in our grou
 * ~~[Running Jobs on clusters](Jobs/).~~
 * Introduction to packages.
   1. [ASE](ASE/)
-  2. ~~[VASP](VASP/)~~
-  3. [Quantum Espresso](QE/)
+  2. DFT Codes:
+     1. ~~[VASP](VASP/)~~
+     2. [Quantum Espresso](QE/)
 
 ### Our Codes ###
 
