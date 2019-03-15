@@ -3,11 +3,10 @@ mathjax: false
 permalink: /
 ---
 
-Welcome to the Github website for Computational Catalysis and Materials (CCM) group at UCONN.
+Welcome to the Github website for Computational Catalysis Course (CHEG-5395-4995) offered by the Department of Chemical and Biomolecular Engineering at the University of Connecticut.
 
 ### Overview ###
-Research in the CCM group is mostly done using the [Vienna Ab initio Simulation Package (VASP)](https://www.vasp.at) and [Quantum ESPRESSO (QE)](http://github.com/vossjo/ase-espresso). We also use [Atomic Simulation Environment (ASE)](https://wiki.fysik.dtu.dk/ase/) and other tools to visualize, manipulate and post-process calculations. Computing resources in the CCM group are provided by [UCONN's HPC facility on the Storrs campus](https://hpc.uconn.edu/storrs/) and [Texas Advanced Computing Center (TACC)](https://www.tacc.utexas.edu)'s [Stampede system](https://portal.tacc.utexas.edu/user-guides/stampede).
-
+Your hands-on practices, Homework 4 and final project of this course will [Quantum ESPRESSO (QE)](http://github.com/vossjo/ase-espresso). We also use [Atomic Simulation Environment (ASE)](https://wiki.fysik.dtu.dk/ase/) and other tools to visualize, manipulate and post-process calculations. Computing resources for this course are provided by [UCONN's HPC facility on the Storrs campus](https://hpc.uconn.edu/storrs/).
 
 This website provides useful instructions and resources for research in our group, including but not limited to:
 
@@ -21,11 +20,7 @@ This website provides useful instructions and resources for research in our grou
 * ~~[Running Jobs on clusters](Jobs/).~~
 * Introduction to packages.
   1. [ASE](ASE/)
-  2. DFT Codes:
-     1. ~~[VASP](VASP/)~~
-     2. [Quantum Espresso](QE/)
-
-### Our Codes ###
+  2. [Quantum Espresso](QE/)
 
 
 ### Useful Links ###
