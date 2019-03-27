@@ -375,33 +375,6 @@ There is a lot more information about Python functions
 
 <a name='python-classes'></a>
 
-### Classes
-
-The syntax for defining classes in Python is straightforward:
-
-```python
-class Greeter(object):
-
-    # Constructor
-    def __init__(self, name):
-        self.name = name  # Create an instance variable
-
-    # Instance method
-    def greet(self, loud=False):
-        if loud:
-            print('HELLO, %s!' % self.name.upper())
-        else:
-            print('Hello, %s' % self.name)
-
-g = Greeter('Fred')  # Construct an instance of the Greeter class
-g.greet()            # Call an instance method; prints "Hello, Fred"
-g.greet(loud=True)   # Call an instance method; prints "HELLO, FRED!"
-```
-You can read a lot more about Python classes
-[in the documentation](https://docs.python.org/3.5/tutorial/classes.html).
-
-<a name='numpy'></a>
-
 ## Numpy
 
 [Numpy](http://www.numpy.org/) is the core library for scientific computing in Python.
