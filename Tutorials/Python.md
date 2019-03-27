@@ -32,7 +32,6 @@ the Python programming language and on the use of Python for scientific computin
 - [Matplotlib](#matplotlib)
   - [Plotting](#matplotlib-plotting)
   - [Subplots](#matplotlib-subplots)
-  - [Images](#matplotlib-images)
 
 <a name='python'></a>
 
@@ -1094,34 +1093,3 @@ plt.show()
 
 You can read much more about the `pyplot` function
 [in the documentation](https://matplotlib.org/tutorials/introductory/pyplot.html#sphx-glr-tutorials-introductory-pyplot-py).
-
-<a name='matplotlib-images'></a>
-
-### Images
-You can use the `imshow` function to show images. Here is an example:
-
-```python
-import numpy as np
-from scipy.misc import imread, imresize
-import matplotlib.pyplot as plt
-
-img = imread('Images/cat.jpg')
-img_tinted = img * [1, 0.95, 0.9]
-
-# Show the original image
-plt.subplot(1, 2, 1)
-plt.imshow(img)
-
-# Show the tinted image
-plt.subplot(1, 2, 2)
-
-# A slight gotcha with imshow is that it might give strange results
-# if presented with data that is not uint8. To work around this, we
-# explicitly cast the image to uint8 before displaying it.
-plt.imshow(np.uint8(img_tinted))
-plt.show()
-```
-
-<div class='fig figcenter fighighlight'>
-  <img src='../Images/cat_tinted_imshow.png'>
-</div>
