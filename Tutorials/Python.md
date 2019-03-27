@@ -2,13 +2,19 @@
 mathjax: false
 permalink: /Tutorials/Python/
 ---
+# Getting Started
+1. [Logging Into the Computing Clusters](/CHEG-5395-4995/HPC/PREREQUISITE/)
+2. [Basic UNIX](../UNIX/)
+3. [Python](../Python/)
+____
+
+## Python Tutorial
 Python is a great general-purpose programming language on its own, but with the help of a few popular libraries (numpy, scipy, matplotlib) it becomes a powerful environment for scientific computing.
 
 We expect that many of you will have some experience with Python and numpy; for the rest of you, this section will serve as a quick crash course both on
 the Python programming language and on the use of Python for scientific computing.
 
-Table of contents:
-
+##Table of contents:
 - [Python](#python)
   - [Basic data types](#python-basic)
   - [Containers](#python-containers)
