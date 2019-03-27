@@ -927,7 +927,7 @@ Here is a simple example that showcases these functions:
 from scipy.misc import imread, imsave, imresize
 
 # Read an JPEG image into a numpy array
-img = imread('Images/cat.jpg')
+img = imread('../Images/cat.jpg')
 print(img.dtype, img.shape)  # Prints "uint8 (400, 248, 3)"
 
 # We can tint the image by scaling each of the color channels
@@ -946,8 +946,8 @@ imsave('Images/cat_tinted.jpg', img_tinted)
 ```
 
 <div class='fig figcenter fighighlight'>
-  <img src='/Images/cat.jpg'>
-  <img src='/Images/cat_tinted.jpg'>
+  <img src='../Images/cat.jpg'>
+  <img src='../Images/cat_tinted.jpg'>
   <div class='figcaption'>
     Left: The original image.
     Right: The tinted and resized image.
@@ -1025,7 +1025,7 @@ plt.show()  # You must call plt.show() to make graphics appear.
 Running this code produces the following plot:
 
 <div class='fig figcenter fighighlight'>
-  <img src='/Images/sine.png'>
+  <img src='../Images/sine.png'>
 </div>
 
 With just a little bit of extra work we can easily plot multiple lines
@@ -1050,7 +1050,7 @@ plt.legend(['Sine', 'Cosine'])
 plt.show()
 ```
 <div class='fig figcenter fighighlight'>
-  <img src='/Images/sine_cosine.png'>
+  <img src='../Images/sine_cosine.png'>
 </div>
 
 You can read much more about the `plot` function
@@ -1089,7 +1089,7 @@ plt.show()
 ```
 
 <div class='fig figcenter fighighlight'>
-  <img src='/Images/sine_cosine_subplot.png'>
+  <img src='../Images/sine_cosine_subplot.png'>
 </div>
 
 You can read much more about the `subplot` function
@@ -1123,5 +1123,5 @@ plt.show()
 ```
 
 <div class='fig figcenter fighighlight'>
-  <img src='/Images/cat_tinted_imshow.png'>
+  <img src='../Images/cat_tinted_imshow.png'>
 </div>
