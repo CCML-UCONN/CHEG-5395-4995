@@ -14,7 +14,7 @@ Python is a great general-purpose programming language on its own, but with the 
 We expect that many of you will have some experience with Python and numpy; for the rest of you, this section will serve as a quick crash course both on
 the Python programming language and on the use of Python for scientific computing.
 
-##Table of contents:
+## Table of contents:
 - [Python](#python)
   - [Basic data types](#python-basic)
   - [Containers](#python-containers)
