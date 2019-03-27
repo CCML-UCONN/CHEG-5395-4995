@@ -32,7 +32,7 @@ cp /home/liz18025/Group/share/bash/bashrc_copy ~/.bashrc
 source ~/.bashrc
 ```
 
-This will enable you to run specific software on the **HCP-Storrs** cluster, including the ASE interface to **VASP** and **Quantum ESPRESSO**.
+This will enable you to run specific software on the **HCP-Storrs** cluster, mostly the **ASE** interface to **Quantum ESPRESSO**.
 
 There are two file systems, **home** and **scratch**. The above lines created your directory under the **scratch** partition and a symbolic link(shortcut) under your home directory pointing to your **scratch** directory. The rest of the lines set the group id to **hpc-ccml** and makes the directory only readable and executable to all group members.
 
