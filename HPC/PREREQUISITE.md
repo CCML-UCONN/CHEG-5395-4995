@@ -7,7 +7,6 @@ permalink: /HPC/PREREQUISITE/
 * [Setting up your accounts](/CCML/HPC/PREREQUISITE/)
 * Hands-on intro to available HPC resource
   1. [Storrs](/CCML/HPC/Storrs/)
-  2. [TACC](/CCML/HPC/TACC/)
 * Tutorials
   1. [UNIX Command Lines](/CCML/Tutorials/UNIX/)
   2. [Python](/CCML/Tutorials/Python/)
@@ -53,12 +52,6 @@ Download and install:
 ### HPC-Storrs
 HPC facility on Storrs campus are open to all members of the UConn research community. If you haven't applied one before, you can simply [request for an account](https://hpc.uconn.edu/storrs/) by clicking "**Get an Account**". A new page will pop up to ask for your NetID and password. Your HPC-Storrs account username will be your UCONN NetID and the initial password will also be the same as your NetID password.   
 
-### TACC-Stampede
-Our TACC-Stampede allocation is managed through XSEDE funded by NSF. Please visit XSEDE user portal first to [create an account](https://portal.xsede.org/my-xsede?p_p_id=58&p_p_lifecycle=0&p_p_state=maximized&p_p_mode=view&_58_struts_action=%2Flogin%2Fcreate_account). After the submission of the account request, you will receive an approval email in 24-48 hrs. Log onto your XSEDE account and [check your TACC-Stampede account username](https://www.xsede.org/group/xup/accounts)(most probably start with **tgxxxxxx**). Remember to email or slack me your XSEDE and TACC account usernames as soon as you receive them.
-
-Go to [TACC user portal](https://portal.tacc.utexas.edu/home) and click "**Log in with TACC ACCOUNT**", put your username ("**tgxxxxxx**) and password to login. If you don't know your password, you might want to try "**Forgot your password**". After login, You will also be asked to setup the Multi-factor Authorization.
-
-
 <a name='logging'></a>
 ## Logging onto the Clusters
 Follow the instructions below for your system:
@@ -89,10 +82,7 @@ You can start putty several times, if you need several terminal windows; only on
 
 In a terminal:
 ```bash
-ssh -X username@stampede.tacc.utexas.edu
-```
-```bash
-ssh -X NetID@login.storrs.hpc.uconn.edu
+ssh -XC NetID@login.storrs.hpc.uconn.edu
 ```
 ____
 
