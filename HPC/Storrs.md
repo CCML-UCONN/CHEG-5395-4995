@@ -4,13 +4,13 @@ permalink:  /HPC/Storrs/
 ---
 
 ## Getting Started
-*  [Getting your accounts](/CCML/HPC/PREREQUISITE/)
+*  [Getting your accounts](/CHEG-5395-4995/HPC/PREREQUISITE/)
 * Hands-on of available HPC resources
-  1. [Storrs](/CCML/HPC/Storrs/)
-  2. [TACC](/CCML/HPC/TACC/)
+  1. [Storrs](/CHEG-5395-4995/HPC/Storrs/)
+  2. [TACC](/CHEG-5395-4995/HPC/TACC/)
 * Tutorials
-  1. [UNIX Command Lines](/CCML/Tutorials/UNIX/)
-  2. [Python](/CCML/Tutorials/Python/)
+  1. [UNIX Command Lines](/CHEG-5395-4995/Tutorials/UNIX/)
+  2. [Python](/CHEG-5395-4995/Tutorials/Python/)
 
 ____
 # Hands-on

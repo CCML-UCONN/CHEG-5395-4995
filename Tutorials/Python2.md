@@ -4,7 +4,7 @@ permalink: /Tutorials/Python/
 ---
 
 # Getting Started
-1. [Logging Into the Computing Clusters](/CCML/HPC/PREREQUISITE/)
+1. [Logging Into the Computing Clusters](/CHEG-5395-4995/HPC/PREREQUISITE/)
 2. [Basic UNIX](../UNIX/)
 3. [Python](../Python/)
 

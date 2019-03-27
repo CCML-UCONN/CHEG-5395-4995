@@ -4,12 +4,12 @@ permalink: /HPC/PREREQUISITE/
 ---
 
 ## Getting Started
-* [Setting up your accounts](/CCML/HPC/PREREQUISITE/)
+* [Setting up your accounts](/CHEG-5395-4995/HPC/PREREQUISITE/)
 * Hands-on intro to available HPC resource
-  1. [Storrs](/CCML/HPC/Storrs/)
+  1. [Storrs](/CHEG-5395-4995/HPC/Storrs/)
 * Tutorials
-  1. [UNIX Command Lines](/CCML/Tutorials/UNIX/)
-  2. [Python](/CCML/Tutorials/Python/)
+  1. [UNIX Command Lines](/CHEG-5395-4995/Tutorials/UNIX/)
+  2. [Python](/CHEG-5395-4995/Tutorials/Python/)
 
 
 ## Logging Into the Computing Clusters
