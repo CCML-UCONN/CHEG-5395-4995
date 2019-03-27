@@ -1092,8 +1092,8 @@ plt.show()
   <img src='../Images/sine_cosine_subplot.png'>
 </div>
 
-You can read much more about the `subplot` function
-[in the documentation](http://matplotlib.org/api/pyplot_api.html#matplotlib.pyplot.subplot).
+You can read much more about the `pyplot` function
+[in the documentation](https://matplotlib.org/tutorials/introductory/pyplot.html#sphx-glr-tutorials-introductory-pyplot-py).
 
 <a name='matplotlib-images'></a>
 
