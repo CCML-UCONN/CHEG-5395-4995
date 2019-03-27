@@ -7,7 +7,6 @@ permalink:  /HPC/Storrs/
 *  [Getting your accounts](/CHEG-5395-4995/HPC/PREREQUISITE/)
 * Hands-on of available HPC resources
   1. [Storrs](/CHEG-5395-4995/HPC/Storrs/)
-  2. [TACC](/CHEG-5395-4995/HPC/TACC/)
 * Tutorials
   1. [UNIX Command Lines](/CHEG-5395-4995/Tutorials/UNIX/)
   2. [Python](/CHEG-5395-4995/Tutorials/Python/)
