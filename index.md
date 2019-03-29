@@ -18,7 +18,7 @@ This website provides useful instructions and resources for research in our grou
 
 ### Conducting Calculations ###
 * [Running Jobs on clusters](HPC/Storrs/#batch)
-* Introduction to packages.
+* Introduction to packages (HW3).
   1. [ASE](ASE/)
   2. ~~[Quantum Espresso](QE/)~~
 
