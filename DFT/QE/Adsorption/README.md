@@ -57,6 +57,6 @@ It is possible that the system does not finish relaxing in the time given to it 
 Note: No every site is stable (the adsorbed CO or O may move to a different site). If it is clear that the atom is relaxing away from the initial site, you do not need to run the calculation any further if you run out of time; simply state that the position is unstable.
 
 ### Things to remember ###
-**1. Run your calculations in `scratch` partition **
-**2. One directory for one calculation **
-**3. Change the `posin=read("init.traj")` in `qe-opt.py`**
+1. **Run your calculations in `scratch` partition **
+2. **One directory for one calculation **
+3. **Change the `posin=read("init.traj")` in `qe-opt.py`**
