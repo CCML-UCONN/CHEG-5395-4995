@@ -19,6 +19,7 @@ In the first exercise, we will be studying how to determine the interaction betw
 1. [A Typical ASE Script](#a-typical-ase-script)
 2. [Trajectory file](#trajectory)
 3. [Submit Jobs](sjobs)
+
 <a name='a-typical-ase-script'></a>
 ### A Typical ASE Script ###
 ASE scripts can be run directly in the terminal (in the login node) or submitting to external nodes. Generally, you will be submitting jobs to external nodes and only small scripts will be run on the login node. By default, all output from any submitted script will be written *from the directory where the submission command was executed*, so make sure you are inside the calculation folder before running the submission command.
@@ -113,7 +114,7 @@ To submit the job, use:
 sbatch -J $PWD esp.sub
 
 ```
-The `-J $PWD` gives the name of the job as the current directory. Make sure this calculations runs correctly before proceeding. Check [here](/HPC/Storrs/#batch), if you need to recall information about job management.
+The `-J $PWD` gives the name of the job as the current directory. Make sure this calculations runs correctly before proceeding. Check [here](/../../HPC/Storrs/#batch), if you need to recall information about job management.
 
 Once you job started, you will see multiple new files created in the directory you submitted your jobs. In the file `relax.log` you will find output like this (numbers could be different):
 ```
