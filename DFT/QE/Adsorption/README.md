@@ -6,7 +6,7 @@ permalink: /DFT/QE/Adsorption/
 # ASE Tutorials
 1. [Introduction to ASE](../)
 2. [Getting Started with DFT Calculations](../Getting_Started/)
-3. [Adsorption](../Adsorption/)
+3. [Adsorption_HW3](../Adsorption/)
 
 ____
 
