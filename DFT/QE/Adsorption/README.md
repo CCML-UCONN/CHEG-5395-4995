@@ -15,9 +15,9 @@ ____
 In the second exercise, you will be calculating the adsorption energy of CO and O on the Pt(111) surface and determining what the most favorable adsorption site is. The adsorption energy is defined as:
 
 
-<center><img src="eads_eq.png" alt="window" style="width: 400px;"/>
+<center><img src="eads_eq.png" alt="window" style="width: 200px;"/>
 </center>
-where CO* refers to adsorbed CO. We have *E*<sub>surface</sub> from the previous exercise, so we will need to calculate *E*<sub>surface + N*</sub>. The energy of E<sub>CO</sub> is -620.461011467 eV.
+where CO* refers to adsorbed CO. We have $$E_surface$$*E*<sub>surface</sub> from the previous exercise, so we will need to calculate *E*<sub>surface + N*</sub>. The energy of *E*<sub>CO</sub> is -620.461011467 eV.
 
 <a name='adsorption-sites'></a>
 
