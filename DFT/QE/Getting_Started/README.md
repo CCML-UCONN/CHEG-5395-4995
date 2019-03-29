@@ -67,7 +67,7 @@ posin=read("init.traj")       #change the name of .traj file accordingly
 slab=posin.copy()
 ```
 
-Then, the Quantum ESPRESSO calculator is set up. All parameters related to the electronic structure calculation are included here. The following example shows typical parameters that we use in the group for MXene calculations.
+Then, the Quantum ESPRESSO calculator is set up. All parameters related to the electronic structure calculation are included here. The following example shows typical parameters that we use in the group for transition metal surface calculations.
 
 ```python
 convergence = {'energy':1e-5,
