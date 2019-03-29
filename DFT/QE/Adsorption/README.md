@@ -1,5 +1,5 @@
 ---
-mathjax: true
+mathjax: True
 permalink: /DFT/QE/Adsorption/
 ---
 
@@ -14,8 +14,9 @@ ____
 
 In the second exercise, you will be calculating the adsorption energy of CO and O on the Pt(111) surface and determining what the most favorable adsorption site is. The adsorption energy is defined as:
 
-
-$`\Delta E_\mathrm{ads} = E_\mathrm{surface + CO*}  - E_\mathrm{surface} - E_\mathrm{CO}`$
+$$
+\Delta E_\mathrm{ads} = E_\mathrm{surface + CO*}  - E_\mathrm{surface} - E_\mathrm{CO}
+$$
 
 
 where CO* refers to adsorbed CO. We have *E*<sub>surface</sub> from the previous exercise, so we will need to calculate *E*<sub>surface + N*</sub>. The energy of E<sub>CO</sub> is -620.461011467 eV.
@@ -38,7 +39,7 @@ In the `ase-gui`, click the atom above where the adsorbate will sit, press `Ctrl
 Sideview of CO on the HCP site of Pt(111)
 </center>
 <center><img src="HCP_CO_top.png" alt="window" style="width: 400px;"/><br>
-topviewof CO on the HCP site of Pt(111)
+Topview of CO on the HCP site of Pt(111)
 </center>
 
 Make sure to save the new .traj file via `Ctrl + S`. No matter what name you new .traj file you saved, you should change the following line in `qe-opt.py` script accordingly.
