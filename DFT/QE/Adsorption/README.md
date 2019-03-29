@@ -25,7 +25,7 @@ where CO* refers to adsorbed CO. We have E_surface from the previous exercise, s
 
 ### Adsorption Sites ###
 
-Take a look [here](/ASE) if you need a reminder of how to add atoms using `ase-gui`. We will describe how to add atoms within the ASE script below.
+Take a look [here](/CHEG-5395-4995/ASE) if you need a reminder of how to add atoms using `ase-gui`. We will describe how to add atoms within the ASE script below.
 
 There are four possible adsorption sites on a Pt(111) surface that an adsorbate can bind to: the fcc, hcp, ontop, and bridge sites. These are illustrated below:
 

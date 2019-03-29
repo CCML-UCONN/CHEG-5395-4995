@@ -114,7 +114,7 @@ To submit the job, use:
 sbatch -J $PWD esp.sub
 
 ```
-The `-J $PWD` gives the name of the job as the current directory. Make sure this calculations runs correctly before proceeding. Check [here](../../../HPC/Storrs/#batch), if you need to recall how to manage your jobs.
+The `-J $PWD` gives the name of the job as the current directory. Make sure this calculations runs correctly before proceeding. Check [here](/HEG-5395-4995/HPC/Storrs/#batch), if you need to recall how to manage your jobs.
 
 Once you job started, you will see multiple new files created in the directory you submitted your jobs. In the file `relax.log` you will find output like this (numbers could be different):
 ```
