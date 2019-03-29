@@ -56,7 +56,7 @@ and make sure the following commands work:
 import ase
 import numpy
 ```
-<a name='batching'></a>
+<a name='batch'></a>
 ###Job Management###
 Most of our jobs require dedication of multiple nodes. Therefore jobs cannot be executed on the front node(the node everyone interfaces when logged onto the cluster). The HPC cluster use a job management system to process the resource requirements and its distribution to working/slave nodes. Some more useful information about the batch system on **HPC-Storrs** can be found [here]()
 

@@ -7,7 +7,6 @@ published: true
 1. [Introduction to ASE](../)
 2. [Getting Started with DFT Calculations__HW3a](../DFT/QE/Getting_Started/)
 3. [Adsorption_HW3b](../DFT/QE/Adsorption/)
-
 ____
 
 ## Introduction to ASE

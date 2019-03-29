@@ -54,4 +54,9 @@ It is possible that the system does not finish relaxing in the time given to it 
 
 **HW 3:** Using the `qe-opt.py` and `esp.sub` script, calculate the E<sub>ads</sub> for CO and O on Pt(111) surface in each of the four adsorption sites. List each E<sub>ads</sub>, and say which is the most stable site.
 
-Note: All sites may not be stable (the adsorbed CO or O may move to a different site). If it is clear that the atom is relaxing away from the initial site, you do not need to run the calculation any further if you run out of time; simply state that the position is unstable.
+Note: No every site is stable (the adsorbed CO or O may move to a different site). If it is clear that the atom is relaxing away from the initial site, you do not need to run the calculation any further if you run out of time; simply state that the position is unstable.
+
+### Things to remember ###
+**1. Run your calculations in `scratch` partition **
+**2. One directory for one calculation **
+**3. Change the `posin=read("init.traj")` in `qe-opt.py`**
