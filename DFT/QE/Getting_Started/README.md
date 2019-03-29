@@ -101,7 +101,7 @@ Finally, the Quantum ESPRESSO calculator is attached to the `slab` Atoms object,
 To submit the job, use:
 
 ```bash
-sbatch -J $PWD spede_esp.sub
+sbatch -J $PWD esp.sub
 
 ```
 The `-J $PWD` gives the name of the job as the current directory. Make sure this calculations runs correctly before proceeding.
