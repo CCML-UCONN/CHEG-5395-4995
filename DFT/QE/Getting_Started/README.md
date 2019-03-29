@@ -5,14 +5,14 @@ permalink: /DFT/QE/Getting_Started/
 
 # ASE Tutorials
 1. [Introduction to ASE](../)
-2. [Getting Started with DFT Calculations](../Getting_Started/)
-3. [Adsorption_HW3](../Adsorption/)
+2. [Getting Started with DFT Calculations__HW3a](../Getting_Started/)
+3. [Adsorption_HW3b](../Adsorption/)
 
 ____
 
 ## Getting Started with DFT Calculations ##
 
-In the first exercise, we will be studying how to determine the interaction between the Pt(111) and an adsorbate. For Homework 3, We will study the CO and O adsorption on Pt(111), and repeated the calculations on Cu(111).
+In the first exercise, we will be studying how to determine the interaction between the Pt(111) and an adsorbate. For Homework 3, We will first optimize the structure of Pt(111) clean surface and calculate its energy. In [part b](../Adsorption/) you will calculate the CO and O adsorption energies on Pt(111) following similar procedures.
 
 ## Contents ##
 
@@ -28,10 +28,10 @@ There are two files that are necessary to run jobs on the HPC-Storrs cluster. Yo
 ```bash
 #!/bin/sh
 #SBATCH --partition=general_requeue                   # Name of partition
-#SBATCH --ntasks=24                           # Request 48 CPU cores
+#SBATCH --ntasks=24                           # Request 24 CPU cores
 #SBATCH --nodes=1
 #SBATCH --time=6:00:00                       # Job should run for up to 2 hours (for example)
-#SBATCH --mail-type=END                       # Event(s) that triggers email notification (BEGIN,END,FAIL,ALL)
+#SBATCH --mail-type=END                      # Event(s) that triggers email notification (BEGIN,END,FAIL,ALL)
 #SBATCH --mail-user=YourEmail      # Destination email address
 ##SBATCH --exclude=cn[01-136,325-328]
 #SBATCH -o out.%j
@@ -63,7 +63,7 @@ An existing trajectory can be read in:
 
 ```python
 # read in the slab
-posin=read("init.traj")
+posin=read("init.traj")       #change the name of .traj file accordingly
 slab=posin.copy()
 ```
 
@@ -105,3 +105,15 @@ sbatch -J $PWD esp.sub
 
 ```
 The `-J $PWD` gives the name of the job as the current directory. Make sure this calculations runs correctly before proceeding.
+
+Once you job started, you will see multiple new files created in the directory you submitted your jobs. In the file `relax.log` you will find output like this (numbers could be different):
+```
+Step     Time          Energy         fmax
+BFGS:    0 11:01:08   -15824.569925        0.7996
+BFGS:    1 11:02:00   -15824.604684        0.6934
+BFGS:    2 11:03:07   -15824.689232        0.3910
+BFGS:    3 11:04:13   -15824.739921        0.4943
+....
+```
+
+The first column tells us we are using a Broyden–Fletcher–Goldfarb–Shanno (BFGS) algorithm to optimize the atomic positions. The second column is the step number (the first step before we move atoms at all is 0). The third column tells us the time each ionic step is calculated, the fourth column is the total energy of the system (eV), and the last column is the maximum force on an atom (eV/Å).
