@@ -12,22 +12,21 @@ ____
 
 ## Adsorption on MXenes ##
 
-In the second exercise, you will be calculating the adsorption energy of a N on the Ti<sub>2</sub>C surface and determining what the most favorable adsorption site is. The adsorption energy is defined as:
+In the second exercise, you will be calculating the adsorption energy of CO and O on the Pt(111) surface and determining what the most favorable adsorption site is. The adsorption energy is defined as:
+
 <div>
-
 $$
-\Delta E_\mathrm{ads} = E_\mathrm{surface + N*}  - E_\mathrm{surface} - E_\mathrm{N}
+\Delta E_\mathrm{ads} = E_\mathrm{surface + CO*}  - E_\mathrm{surface} - E_\mathrm{CO}
 $$
-
 </div>
 
-where N* refers to adsorbed N. We have *E*<sub>surface</sub> from the previous exercise (the total energy of the previous slab x 4, since we will soon be doubling the cell in the x and y directions), so we will need to calculate *E*<sub>surface + N*</sub>. The energy of E<sub>N</sub> is -278.275 eV (we will talk about where this energy came from in the Final Project).
+where CO* refers to adsorbed CO. We have *E*<sub>surface</sub> from the previous exercise, so we will need to calculate *E*<sub>surface + N*</sub>. The energy of E<sub>CO</sub> is -620.461011467 eV.
 
 <a name='adsorption-sites'></a>
 
 ### Adsorption Sites ###
 
-Take a look [here](http://CBE544.github.io/ASE/#ase-gui) if you need a reminder of how to add atoms using `ase-gui`. We will describe how to add atoms within the ASE script below.
+Take a look [here] if you need a reminder of how to add atoms using `ase-gui`. We will describe how to add atoms within the ASE script below.
 
 First, open the .traj file with the optimized lattice constant that you obtained from the previous exercise. On the menu bar, select View -> Repeat. Under 'Repeat Atoms', change the first two numbers from 1 to 2; leave the third number as 1. Then, click set unit cell. Your cell should look like this:
 
