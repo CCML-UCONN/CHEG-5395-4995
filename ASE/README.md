@@ -7,6 +7,7 @@ published: true
 # ASE Tutorials
 1. [Introduction to ASE](../ASE/)
 2. [Getting Started with DFT Calculations](../DFT/QE/Getting_Started/)
+3. [Adsorption_HW3](../DFT/QE/Adsorption/)
 ____
 
 ## Introduction to ASE

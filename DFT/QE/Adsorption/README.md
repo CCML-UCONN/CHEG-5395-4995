@@ -10,7 +10,7 @@ permalink: /DFT/QE/Adsorption/
 
 ____
 
-## Adsorption on MXenes ##
+## Adsorption on Pt(111) ##
 
 In the second exercise, you will be calculating the adsorption energy of CO and O on the Pt(111) surface and determining what the most favorable adsorption site is. The adsorption energy is defined as:
 
@@ -26,50 +26,33 @@ where CO* refers to adsorbed CO. We have *E*<sub>surface</sub> from the previous
 
 ### Adsorption Sites ###
 
-Take a look [here] if you need a reminder of how to add atoms using `ase-gui`. We will describe how to add atoms within the ASE script below.
+Take a look [here](/ASE) if you need a reminder of how to add atoms using `ase-gui`. We will describe how to add atoms within the ASE script below.
 
-First, open the .traj file with the optimized lattice constant that you obtained from the previous exercise. On the menu bar, select View -> Repeat. Under 'Repeat Atoms', change the first two numbers from 1 to 2; leave the third number as 1. Then, click set unit cell. Your cell should look like this:
-
-<center><img src="doubled.png" alt="window" style="width: 400px;"/><br>
-2 x 2 surface of Ti<sub>2</sub>C
-</center>
-
-There are four possible adsorption sites on a two-dimensional MXene surface that an adsorbate can bind to: the fcc, hcp, ontop, and bridge sites. These are illustrated below:
+There are four possible adsorption sites on a Pt(111) surface that an adsorbate can bind to: the fcc, hcp, ontop, and bridge sites. These are illustrated below:
 
 <center><img src="overhead.png" alt="window" style="width: 400px;"/><br>
-2 x 2 surface of Ti<sub>2</sub>C
+2 x 2 surface of Pt(111)
 </center>
 
-In the `ase-gui`, click the atom above where the adsorbate will sit, press `Ctrl + A`, then specify the adsorbate and the vertical distance above the site. You can also hold `Ctrl` to select multiple atoms and add an adsorbate, which will be at the center of all the selected atoms. You can move the atoms by selecting the atom(s) you wish to move, press `Ctrl + M`, and use the arrow keys to move the atom(s); press `Ctrl + M` again to deselect the atom(s) for moving. In the following figure, we illustrate the placement of N on the ontop site:
+In the `ase-gui`, click the atom above where the adsorbate will sit, press `Ctrl + A`, then specify the adsorbate and the vertical distance above the site. You can also hold `Ctrl` to select multiple atoms and add an adsorbate, which will be at the center of all the selected atoms. You can move the atoms by selecting the atom(s) you wish to move, press `Ctrl + M`, and use the arrow keys to move the atom(s); press `Ctrl + M` again to deselect the atom(s) for moving. In the following figure, we illustrate the placement of CO on the HCP site:
 
-<center><img src="N_ontop.png" alt="window" style="width: 400px;"/><br>
-ontop N on Ti<sub>2</sub>C
+<center><img src="HCP_CO_side.png" alt="window" style="width: 400px;"/><br>
+Sideview of CO on the HCP site of Pt(111)
+</center>
+<center><img src="HCP_CO_top.png" alt="window" style="width: 400px;"/><br>
+topviewof CO on the HCP site of Pt(111)
 </center>
 
-Make sure to save the new .traj file via `Ctrl + S`.
+Make sure to save the new .traj file via `Ctrl + S`. No matter what name you new .traj file you saved, you should change the following line in `qe-opt.py` script accordingly.
 
-To relax these atoms, use the `Relax.py`script. Read the script to make sure you understand what it does. (Note: In the calculator the k-point mesh is now (4x4x1) instead of the (8x8x1) we were using in the previous steps. Why?) The output should look like this:
-```
-BFGS:   0  20:33:56   -13667.108639 136.3606
-BFGS:   1  20:38:43   -13675.857635  89.5080
-BFGS:   2  20:42:59   -13680.647385	 65.7332
-BFGS:   3  20:47:11   -13683.809679	 50.8884
-BFGS:   4  20:51:23   -13686.061782	 40.5300
-BFGS:   5  20:56:10   -13687.682598	 32.9905
-BFGS:   6  21:00:24   -13688.838033	 27.4382
-BFGS:   7  21:04:32   -13689.679245	 23.2174
-BFGS:   8  21:08:41   -13690.323083	 19.8317
-BFGS:   9  21:12:45   -13690.839507	 16.9859
-BFGS:  10  21:16:48   -13691.266948	 14.5243
-BFGS:  11  21:20:36   -13691.626984	 12.3675
-BFGS:  12  21:24:20   -13691.933360	 10.4735
-....
+```Python
+posin=read("init.traj") #change the name of .traj file to the one you saved
 ```
 
-The first column tells us we are using a Broyden–Fletcher–Goldfarb–Shanno (BFGS) algorithm to optimize the atomic positions. The second column is the step number (the first step before we move atoms at all is 0). The third column tells us the time each ionic step is calculated, the fourth column is the total energy of the system (eV), and the last column is the maximum force on an atom (eV/Å).
+To relax these atoms, use the `qe-opt.py` script as you did for the [clean surface](../Getting_Started/). Read the script to make sure you understand what it does. 
 
-It is possible that the system does not finish relaxing in the time given to it by the scheduler. If this happens, simply copy the .traj created by the script (in this case, Relax.traj) to the original .traj file name. When the script reads the .traj file, if there are multiple atomic configurations in the file, it will read the last one by default. In this way, you can run the script from before and start where the previous calculation left off.
+It is possible that the system does not finish relaxing in the time given to it by the scheduler. If this happens, simply copy the .traj created by the script (in this case, `relax.traj`) to the original .traj file name. When the script reads the .traj file, if there are multiple atomic configurations in the file, it will read the last one by default. In this way, you can run the script from before and start where the previous calculation left off.
 
-**HW 5:** Using the `Relax.py` script, calculate the E<sub>ads</sub> for N in each of the four adsorption sites. List each E<sub>ads</sub>, and say which is the most stable site.
+**HW 3:** Using the `qe-opt.py` and `esp.sub` script, calculate the E<sub>ads</sub> for CO and O on Pt(111) surface in each of the four adsorption sites. List each E<sub>ads</sub>, and say which is the most stable site.
 
-Note: All sites may not be stable (the adsorbed N may move to a different site). If it is clear that the atom is relaxing away from the initial site, you do not need to run the calculation any further if you run out of time; simply state that the position is unstable.
+Note: All sites may not be stable (the adsorbed CO or O may move to a different site). If it is clear that the atom is relaxing away from the initial site, you do not need to run the calculation any further if you run out of time; simply state that the position is unstable.
