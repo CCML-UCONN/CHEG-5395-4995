@@ -6,7 +6,7 @@ published: true
 
 # ASE Tutorials
 1. [Introduction to ASE](../ASE/)
-~~2. [Getting Started with DFT Calculations](/DFT/QE/Getting_Started/)~~
+2. [Getting Started with DFT Calculations](../DFT/QE/Getting_Started/)
 ____
 
 ## Introduction to ASE
@@ -45,29 +45,28 @@ ASE supports a variety of file formats. More information about ASE can be found 
 
 As mentioned above, you can use the graphical user interface to view atomic structures. It is also convenient for adding or manipulating atoms inside your system. Read all the details [here](http://wiki.fysik.dtu.dk/ase/ase/gui/gui.html).
 
-Log on to Stampede, download an example and take a look (the other files will all be used in the remainder of these examples):
+Log on to *Storrs-HPC*, download an example and take a look (the other files will all be used in the remainder of these examples):
 
 ```bash
-wget https://cbe544.github.io/ASE/archive.tar.gz
-tar -zxvf archive.tar.gz
-cd Archive
-ase-gui Ti2C.traj
+cp -r /home/liz18025/shared/ag-example .
+cd ag-example
+ase-gui Pt.traj
 ```
 
 You should see the following window:
 
-<center><img src="Images/gui-window.png" alt="window" style="width: 400px;"/><br>
+<center><img src="Images/Pt_traj_0.png" alt="window" style="width: 400px;"/><br>
 ASE GUI interface
 </center>
 
-To add an atom, select an existing atom and go to `Edit > Add atoms` or press `Ctrl+A`. After selecting OK, the atom will be placed on top of the atom you selected. If you did not select an atom, the new atom will be centered in the unit cell. If you want to move the atom, you can use `Tools > Move atoms` or `Ctrl+M`. The atom should have a green outline and you can use your arrow keys to move its position. You can simply hold down `Ctrl` to select multiple atoms.
-
-<center><img src="Images/gui-move.png" alt="add" style="width: 400px;"/><br>
-Moving an atom
+To add an atom, select an existing atom and go to `Edit > Add atoms` or press `Ctrl+A`. After selecting OK, the atom will be placed on top of the atom you selected. If you did not select an atom, the new atom will be centered in the unit cell.
+<center><img src="Images/add_atom.png" alt="add" style="width: 400px;"/><br>
+adding an atom(s)
 </center>
-
-For the extended surfaces (e.g., 111) you can repeat the slab. This is convenient for identifying symmetric sites, which might not be obvious at first glance from the unit cell. To do this:
-
-<center><img src="Images/gui-repeating.png" alt="add" style="width: 400px;"/><br>
-Repeating a slab
+<center><img src="Images/add_atom_dialog.png" alt="add" style="width: 400px;"/><br>
+Dialog for adding atom(s)
 </center>
+<center><img src="Images/Pt_CO.png" alt="add" style="width: 400px;"/><br>
+Structure after adding CO
+</center>
+If you want to move the atom, you can use `Tools > Move atoms` or `Ctrl+M`. The atom should have a green outline and you can use your arrow keys to move its position. You can simply hold down `Ctrl` to select multiple atoms.
