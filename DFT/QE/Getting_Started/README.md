@@ -17,10 +17,10 @@ In the first exercise, we will be studying how to determine the interaction betw
 ## Contents ##
 
 1. [A Typical ASE Script](#a-typical-ase-script)
+2. [Trajectory file](#trajectory)
+3. [Submit Jobs](sjobs)
 <a name='a-typical-ase-script'></a>
-
 ### A Typical ASE Script ###
-
 ASE scripts can be run directly in the terminal (in the login node) or submitting to external nodes. Generally, you will be submitting jobs to external nodes and only small scripts will be run on the login node. By default, all output from any submitted script will be written *from the directory where the submission command was executed*, so make sure you are inside the calculation folder before running the submission command.
 
 There are two files that are necessary to run jobs on the HPC-Storrs cluster. You can copy an example from `/home/liz18025/shared/hw3`. The first is `esp.sub`; this is the file that tells the scheduler how much time the job is allowed, how many processors it requires, and other pertinent information. First, notice the comments in the beginning. These include information such as how much time to allocate, the number of nodes required, what the names of the output and error files are, what the name of the job should be, and what your email is.
@@ -98,6 +98,15 @@ calc = espresso(pw=500 , # Plane wave cutoff
 
 Finally, the Quantum ESPRESSO calculator is attached to the `slab` Atoms object, the energy calculation is ran, and the total energy of the system is output in the log file (defined in the `esp.sub` file above).
 
+<a name='trajectory'></a>
+### Trajectory file ###
+The last file we need to have is the trajectory file(.traj), simply copy the `Pt.traj` file from `ag_example` for the Pt (111) clean surface. You can double chek the structure using `ag`. Remeber that for all your calculations the name of the `.traj` file should be the same as the one appeared in the following line of `qe-opt.py`.
+```Python
+posin=read("init.traj")
+````
+
+<a name='sjobs'></a>
+### Submit Jobs ###
 To submit the job, use:
 
 ```bash
