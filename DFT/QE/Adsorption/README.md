@@ -15,9 +15,9 @@ ____
 In the second exercise, you will be calculating the adsorption energy of CO and O on the Pt(111) surface and determining what the most favorable adsorption site is. The adsorption energy is defined as:
 
 <div>
-$$
+```mathjax
 \Delta E_\mathrm{ads} = E_\mathrm{surface + CO*}  - E_\mathrm{surface} - E_\mathrm{CO}
-$$
+```
 </div>
 
 where CO* refers to adsorbed CO. We have *E*<sub>surface</sub> from the previous exercise, so we will need to calculate *E*<sub>surface + N*</sub>. The energy of E<sub>CO</sub> is -620.461011467 eV.
@@ -49,7 +49,7 @@ Make sure to save the new .traj file via `Ctrl + S`. No matter what name you new
 posin=read("init.traj") #change the name of .traj file to the one you saved
 ```
 
-To relax these atoms, use the `qe-opt.py` script as you did for the [clean surface](../Getting_Started/). Read the script to make sure you understand what it does. 
+To relax these atoms, use the `qe-opt.py` script as you did for the [clean surface](../Getting_Started/). Read the script to make sure you understand what it does.
 
 It is possible that the system does not finish relaxing in the time given to it by the scheduler. If this happens, simply copy the .traj created by the script (in this case, `relax.traj`) to the original .traj file name. When the script reads the .traj file, if there are multiple atomic configurations in the file, it will read the last one by default. In this way, you can run the script from before and start where the previous calculation left off.
 
