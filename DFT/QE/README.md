@@ -5,7 +5,7 @@ published: true
 ---
 
 # ASE Tutorials
-1. ~~[Introduction to ASE](../ASE/)~~
+1. [Introduction to ASE](../../ASE/)
 1. [Getting Started with DFT Calculations](Getting_Started/)
 2. [Adsorption](Adsorption/)
 
