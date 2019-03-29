@@ -17,7 +17,7 @@ This website provides useful instructions and resources for research in our grou
   2. [Python](Tutorials/Python/)
 
 ### Conducting Calculations ###
-* ~~[Running Jobs on clusters](Jobs/).~~
+* [Running Jobs on clusters](HPC/Storrs/#batch)
 * Introduction to packages.
   1. [ASE](ASE/)
   2. [Quantum Espresso](QE/)
