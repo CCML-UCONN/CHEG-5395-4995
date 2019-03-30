@@ -52,7 +52,7 @@ To relax these atoms, use the `qe-opt.py` script as you did for the [clean surfa
 
 It is possible that the system does not finish relaxing in the time given to it by the scheduler. If this happens, simply copy the .traj created by the script (in this case, `relax.traj`) to the original .traj file name. When the script reads the .traj file, if there are multiple atomic configurations in the file, it will read the last one by default. In this way, you can run the script from before and start where the previous calculation left off.
 
-**HW 3:** Using the `qe-opt.py` and `esp.sub` script, calculate the E<sub>ads</sub> for CO and O on Pt(111) surface in each of the four adsorption sites. List each E<sub>ads</sub>, and say which is the most stable site.
+**[HW 3](../../hw3.pdf)**: Using the `qe-opt.py` and `esp.sub` script, calculate the E<sub>ads</sub> for CO and O on Pt(111) surface in each of the four adsorption sites. List each E<sub>ads</sub>, and say which is the most stable site.
 
 Note: No every site is stable (the adsorbed CO or O may move to a different site). If it is clear that the atom is relaxing away from the initial site, you do not need to run the calculation any further if you run out of time; simply state that the position is unstable.
 
