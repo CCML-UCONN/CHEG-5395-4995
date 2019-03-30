@@ -3,7 +3,7 @@ mathjax: true
 permalink: /ASE/
 published: true
 ---
-# ASE Tutorials
+# ASE Tutorials [HW3](../hw3.pdf)
 1. [Introduction to ASE](/CHEG-5395-4995/ASE)
 2. [Getting Started with DFT Calculations__HW3a](../DFT/QE/Getting_Started/)
 3. [Adsorption_HW3b](../DFT/QE/Adsorption/)
