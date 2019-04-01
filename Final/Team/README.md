@@ -6,7 +6,7 @@ published: true
 * [Homepage](/CHEG-5395-4995/)
 # Final Project #
 1. [Teams and Timeline](/CHEG-5395-4995/Final/Team)
-2. [Project Description]((/CHEG-5395-4995/Final/Project)
+2. [Project Description](/CHEG-5395-4995/Final/Project)
 
 ____
 
@@ -16,7 +16,7 @@ ____
 
 <a name='team'></a>
 
-| Project       | Members       | Email |             ID|
+| Project       | Members       | Email |    ID    |
 |:-------------:|:-------------:| :-----:|:------------:|
 |               | Henry Sokol   |henry.sokol@uconn.edu|hjs18001|
 |               |:-------------:| :-----:|:------------:|
