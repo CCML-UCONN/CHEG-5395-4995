@@ -3,7 +3,7 @@ mathjax: True
 permalink: /DFT/QE/Adsorption/
 ---
 * [Homepage](/CHEG-5395-4995/)
-# Tutorials [HW3](../../../hw3.pdf)#
+# Tutorials [HW3](../../../hw3.pdf) #
 1. [Introduction to ASE](/CHEG-5395-4995/ASE)
 2. [Getting Started with DFT Calculations__HW3a](../Getting_Started/)
 3. [Adsorption_HW3b](../Adsorption/)
