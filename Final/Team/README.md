@@ -25,7 +25,7 @@ ____
 |               | Uchenna Anene |uche@uconn.edu|uaa18001|
 | :-------------:|:-------------:| :-----:|:------------:|
 | :-------------:|:-------------:| :-----:|:------------:|
-|               | Alexandra Oliveira|   |alexandra.oliveira@uconn.edu|amo13017|
+|               | Alexandra Oliveira|alexandra.oliveira@uconn.edu|amo13017|
 |               |:-------------:| :-----:|:------------:|
 | OER Catalysts | Noah Ferguson |noah.ferguson@uconn.edu|nnf17001|
 |               |:-------------:| :-----:|:------------:|
