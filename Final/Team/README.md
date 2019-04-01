@@ -18,29 +18,9 @@ ____
 
 | Project       | Members       | Email |    ID    |
 |:-------------:|:-------------:| :-----:|:------------:|
-|     ^          | Henry Sokol   |henry.sokol@uconn.edu|hjs18001|
+| Gas Separation| Henry Sokol   |henry.sokol@uconn.edu|hjs18001|
 | Gas Separation| Tyler Crowl   |tyler.crowl@uconn.edu|tbc13004|
-|       ^        | Uchenna Anene |uche@uconn.edu|uaa18001|
-|               | Alexandra Oliveira|alexandra.oliveira@uconn.edu|amo13017|
+| Gas Separation| Uchenna Anene |uche@uconn.edu|uaa18001|
+| OER Catalysts| Alexandra Oliveira|alexandra.oliveira@uconn.edu|amo13017|
 | OER Catalysts | Noah Ferguson |noah.ferguson@uconn.edu|nnf17001|
-|               | Ronald LaMonica|ronald.lamonica@uconn.edu|rjl13004|
-
-/***
-| __Animals__ | __Sports__ | __Fruits__ |
-|-------------|------------|------------|
-| Cat         | Soccer     | Apple      |
-| Dog         | Basketball | Orange     |
-***/
-
-
-\begin{table}[]
-\centering
-\caption{My caption}
-\label{my-label}
-\begin{tabular}{|l|l|l|}
-\hline
-\textbf{Animals} & \textbf{Sports}  & \textbf{Fruits} \\ \hline
-Cat     & Soccer     & Apple  \\ \hline
-Dog     & Basketball & Orange \\ \hline
-\end{tabular}
-\end{table}
+| OER Catalysts| Ronald LaMonica|ronald.lamonica@uconn.edu|rjl13004|
