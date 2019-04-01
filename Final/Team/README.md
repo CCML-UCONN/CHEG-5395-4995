@@ -16,8 +16,8 @@ ____
 
 <a name='team'></a>
 
-| Project       | Members       | Email |
-| ------------- |:-------------:| -----:|
+| Project       | Members       | Email |ID|
+| :-------------: |:-------------:| :-----:|--:
 |               | Henry Sokol   |       |
 |               |:-------------:| -----:|
 | Gas Separation| Tyler Crowl   |       |
