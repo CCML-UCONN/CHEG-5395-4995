@@ -15,6 +15,7 @@ ____
 2. [Timeline](#time)
 
 <a name='team'></a>
+
 | Project       | Members       | Email |
 | ------------- |:-------------:| -----:|
 |               | Henry Sokol   |       |
@@ -23,10 +24,9 @@ ____
 |               |:-------------:| -----:|
 |               | Uchenna Anene |       |
 | ------------- |:-------------:| -----:|
-| ------------- |:-------------:| -----:|
-|               | Alexandra Oliveira|       |
+|               | Alexandra Oliveira|   |
 |               |:-------------:| -----:|
 | OER Catalysts | Noah Ferguson |       |
 |               |:-------------:| -----:|
-|               | Ronald LaMonica|       |
+|               | Ronald LaMonica|      |
 | ------------- |:-------------:| -----:|
