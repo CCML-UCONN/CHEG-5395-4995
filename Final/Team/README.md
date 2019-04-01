@@ -31,3 +31,10 @@ ____
 |               |:-------------:| :-----:|:------------:|
 |               | Ronald LaMonica|ronald.lamonica@uconn.edu|rjl13004|
 | ------------- |:-------------:| :-----:|:------------:|
+
+/***
+| __Animals__ | __Sports__ | __Fruits__ |
+|-------------|------------|------------|
+| Cat         | Soccer     | Apple      |
+| Dog         | Basketball | Orange     |
+***/
