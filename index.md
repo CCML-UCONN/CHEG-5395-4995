@@ -18,7 +18,7 @@ This website provides useful instructions and resources for research in our grou
 
 ### Conducting Calculations ###
 * [Running Jobs on clusters](HPC/Storrs/#batch)
-* Introduction to packages (HW3).
+* Introduction to packages ([HW3](hw3.pdf)).
   1. [ASE](ASE/)
 
 

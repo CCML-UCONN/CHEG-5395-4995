@@ -3,7 +3,7 @@ mathjax: true
 permalink: /DFT/QE/Getting_Started/
 ---
 
-# ASE Tutorials
+#ASE Tutorials [HW3](../../../hw3.pdf)
 1. [Introduction to ASE](/CHEG-5395-4995/ASE)
 2. [Getting Started with DFT Calculations__HW3a](../Getting_Started/)
 3. [Adsorption_HW3b](../Adsorption/)
@@ -12,7 +12,7 @@ ____
 
 ## Getting Started with DFT Calculations ##
 
-In the first exercise, we will be studying how to determine the interaction between the Pt(111) and an adsorbate. For Homework 3, We will first optimize the structure of Pt(111) clean surface and calculate its energy. In [part b](../Adsorption/) you will calculate the CO and O adsorption energies on Pt(111) following similar procedures.
+In the first exercise, we will be studying how to determine the interaction between the Pt(111) and an adsorbate. For [Homework 3](../../../hw3.pdf), We will first optimize the structure of Pt(111) clean surface and calculate its energy. In [part b](../Adsorption/) you will calculate the CO and O adsorption energies on Pt(111) following similar procedures.
 
 ## Contents ##
 

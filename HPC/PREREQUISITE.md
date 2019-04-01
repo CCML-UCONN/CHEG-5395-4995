@@ -59,9 +59,6 @@ Follow the instructions below for your system:
 
 Open "Applications-> Utilities -> Terminal" or "Command+Space" to search Terminal using "spotlight search"
 In a terminal:
-```bash
-ssh -X username@stampede.tacc.utexas.edu
-```
 
 ```bash
 ssh -X NetID@login.storrs.hpc.uconn.edu
