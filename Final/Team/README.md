@@ -20,9 +20,9 @@ ____
 |:-------------:|:-------------:| :-----:|:------------:|
 |               | Henry Sokol   |henry.sokol@uconn.edu|hjs18001|
 |               |:-------------:| :-----:|:------------:|
-| Gas Separation| Tyler Crowl   |tyler.crowl@uconn.edu|tbc13004
+| Gas Separation| Tyler Crowl   |tyler.crowl@uconn.edu|tbc13004|
 |               |:-------------:| :-----:|:------------:|
-|               | Uchenna Anene |uche@uconn.edu|uaa18001
+|               | Uchenna Anene |uche@uconn.edu|uaa18001|
 | :-------------:|:-------------:| :-----:|:------------:|
 | :-------------:|:-------------:| :-----:|:------------:|
 |               | Alexandra Oliveira|   |alexandra.oliveira@uconn.edu|amo13017|
