@@ -16,17 +16,18 @@ ____
 
 <a name='team'></a>
 
-| Project       | Members       | Email |ID|
-| :-------------: |:-------------:| :-----:|--:
-|               | Henry Sokol   |       |
-|               |:-------------:| -----:|
-| Gas Separation| Tyler Crowl   |       |
-|               |:-------------:| -----:|
-|               | Uchenna Anene |       |
-| ------------- |:-------------:| -----:|
-|               | Alexandra Oliveira|   |
-|               |:-------------:| -----:|
-| OER Catalysts | Noah Ferguson |       |
-|               |:-------------:| -----:|
-|               | Ronald LaMonica|      |
-| ------------- |:-------------:| -----:|
+| Project       | Members       | Email |             ID|
+|:-------------:|:-------------:| :-----:|:------------:|
+|               | Henry Sokol   |henry.sokol@uconn.edu|hjs18001|
+|               |:-------------:| :-----:|:------------:|
+| Gas Separation| Tyler Crowl   |tyler.crowl@uconn.edu|tbc13004
+|               |:-------------:| :-----:|:------------:|
+|               | Uchenna Anene |uche@uconn.edu|uaa18001
+| :-------------:|:-------------:| :-----:|:------------:|
+| :-------------:|:-------------:| :-----:|:------------:|
+|               | Alexandra Oliveira|   |alexandra.oliveira@uconn.edu|amo13017|
+|               |:-------------:| :-----:|:------------:|
+| OER Catalysts | Noah Ferguson |noah.ferguson@uconn.edu|nnf17001|
+|               |:-------------:| :-----:|:------------:|
+|               | Ronald LaMonica|ronald.lamonica@uconn.edu|rjl13004|
+| ------------- |:-------------:| :-----:|:------------:|
