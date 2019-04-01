@@ -2,7 +2,7 @@
 mathjax: false
 permalink:  /HPC/Storrs/
 ---
-
+* [Homepage](/CHEG-5395-4995/)
 ## Getting Started
 *  [Getting your accounts](/CHEG-5395-4995/HPC/PREREQUISITE/)
 * Hands-on of available HPC resources

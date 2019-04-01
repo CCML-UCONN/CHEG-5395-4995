@@ -2,7 +2,7 @@
 mathjax: false
 permalink: /HPC/PREREQUISITE/
 ---
-
+* [Homepage](/CHEG-5395-4995/)
 ## Getting Started
 * [Setting up your accounts](/CHEG-5395-4995/HPC/PREREQUISITE/)
 * Hands-on intro to available HPC resource

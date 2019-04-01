@@ -2,6 +2,7 @@
 mathjax: false
 permalink: /Tutorials/Python/
 ---
+* [Homepage](/CHEG-5395-4995/)
 # Getting Started
 1. [Logging Into the Computing Clusters](/CHEG-5395-4995/HPC/PREREQUISITE/)
 2. [Basic UNIX](../UNIX/)
