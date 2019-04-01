@@ -20,7 +20,6 @@ This website provides useful instructions and resources for research in our grou
 * [Running Jobs on clusters](HPC/Storrs/#batch)
 * Introduction to packages (HW3).
   1. [ASE](ASE/)
-  2. ~~[Quantum Espresso](QE/)~~
 
 
 ### Useful Links ###
