@@ -31,7 +31,7 @@ ____
 
 | Date       | Task       | Email |    
 |:-------------:|:-------------:| :-----:|
-| Mar 29 | Selection of Team and Project   ||
+| Mar 29 | Selection of Team and Project   |See above|
 | Apr 8| Follow up 1 |Task1: first batch of Calculations|
 | Apr 15| Follow up 2 |Task2: start to work on phase 2|
 | Apr 22| Follow up 3 | Calculations and Data Analysis|
