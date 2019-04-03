@@ -15,7 +15,7 @@ ____
 2. [Timeline](#time)
 
 <a name='team'></a>
-
+## Teams and Projects ##
 | Project       | Members       | Email |    ID    |
 |:-------------:|:-------------:| :-----:|:------------:|
 | Gas Separation| Henry Sokol   |henry.sokol@uconn.edu|hjs18001|
@@ -24,3 +24,14 @@ ____
 | OER Catalysts| Alexandra Oliveira|alexandra.oliveira@uconn.edu|amo13017|
 | OER Catalysts | Noah Ferguson |noah.ferguson@uconn.edu|nnf17001|
 | OER Catalysts| Ronald LaMonica|ronald.lamonica@uconn.edu|rjl13004|
+
+<a name='Timeline'></a>
+## Timeline ##
+| Date       | Task       | Email |    
+|:-------------:|:-------------:| :-----:|
+| Mar 29 | Selection of Team and Project   |henry.sokol@uconn.edu|
+| Apr 8| Follow up 1 |Task1: first batch of Calculations|
+| Apr 15| Follow up 2 |Task2: start to work on phase 2|
+| Apr 22| Follow up 3||
+| May 1 | Presentation |15mins+5 mins Q&A|
+| May 7 | Report Due|2-3 pages|
