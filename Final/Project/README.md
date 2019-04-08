@@ -21,11 +21,13 @@ ____
 <a name='oer'></a>
 ## SnO2-based OER Catalysts ##
 Pure SnO2 itself is one of the worst OER catalysts, due to weak binging of O species on the surface. You will be calculating the adsorption free energy of O and OH on pure and doped SnO2 surface to obtain the theoretical OER over-potential.
+
 <center><img src="Images/oer_volcano.png" alt="add" style="width: 400px;"/><br>
 OER Activity Volcano. (Man et.al. 2011)
 </center>
 
-The universal linear scaling between ∆G<sub>OH<\sub> and ∆G<sub>OOH<\sub> helps you to asses the theoretical over-potential using a unique descriptor (∆G_O - ∆G_OH). At standard condition,
+The universal linear scaling between ∆G<sub>OH</sub> and ∆G<sub>OOH</sub> helps you to asses the theoretical over-potential using a unique descriptor (∆G_O - ∆G_OH). At standard condition,
+
 <center><img src="Images/op_eq9" alt="add" style="width: 400px;"/>
 </center>
 

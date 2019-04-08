@@ -23,7 +23,7 @@ This website provides useful instructions and resources for research in our grou
 
 ### Final Project ###
 * [Teams and Timeline](Final/Team)
-* [Project Description]((Final/Project)
+* [Project Description](Final/Project)
 
 ### Useful Links ###
 
