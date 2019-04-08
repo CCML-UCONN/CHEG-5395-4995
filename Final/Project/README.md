@@ -49,6 +49,6 @@ Two possible sites for doping guest metal (replacing Sn).
 
 <a name='qanda'></a>
 ## Q and A ##
-1. What if my calculation didn't finish with one submission?
+1. **What if my calculation didn't finish with one submission?**
 
 Most of your calculations will run longer than your HW3, some of them may even exceed the time limit in your job submission. In this case, you will can copy `relax.traj` to the `.traj` you have in your `qe-opt.py` and resubmit your job. The program will read the last configuration from `relax.traj` and continue the optimization process.
