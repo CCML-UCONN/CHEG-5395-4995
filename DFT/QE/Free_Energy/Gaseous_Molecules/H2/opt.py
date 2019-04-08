@@ -49,8 +49,8 @@ atoms.set_cell([[10,0,0],[0,10.1,0],[0,0,10.2]])
 calc = espresso(pw = 500.,
                 dw = 5000.,
                 nbands = -10,
-            kpts=(1, 1, 1), 
-            xc = 'BEEF', 
+            kpts=(1, 1, 1),
+            xc = 'BEEF',
             outdir='outdir',
             psppath = "/scratch/users/colinfd/psp/gbrv",
             sigma = 10e-4)
@@ -58,7 +58,7 @@ calc = espresso(pw = 500.,
 atoms.set_calculator(calc)
 
 dyn = QuasiNewton(atoms,logfile='out.log',trajectory='out.traj')
-dyn.run(fmax=0.01) 
+dyn.run(fmax=0.01)
 electronicenergy = atoms.get_potential_energy()
 
 vib = Vibrations(atoms) # run vibrations on all atoms
