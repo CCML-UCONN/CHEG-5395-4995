@@ -29,7 +29,7 @@ OER Activity Volcano. (Man et.al. 2011)
 
 The universal linear scaling between ∆G_OH and ∆G_OOH helps you to asses the theoretical over-potential using a unique descriptor (∆G_O - ∆G_OH). At standard condition,
 
-<center><img src="Images/op_eq9.png" alt="add" style="width: 400px;"/>
+<center><img src="Images/op_eq9.png" alt="add" style="width: 300px;"/>
 </center>
 
 Your tasks include the following:
