@@ -21,7 +21,10 @@ ________
 
 <a name='oer'></a>
 ## SnO2-based OER Catalysts ##
-Pure SnO2 itself is one of the worst OER catalysts, due to weak binging of O species on the surface. You will be calculating the adsorption free energy of O and OH on pure and doped SnO2 surface to obtain the theoretical OER over-potential.
+Path: ```bash
+/home/liz18025/shared/cheg4995-5395/final_project/OER
+```
+Pure SnO2 itself is one of the worst OER catalysts, due to weak binging of O species on the surface. You will be calculating the adsorption free energy of O and OH on pure and doped SnO2(110) surface to obtain the theoretical OER over-potential. [The paper by Man et. al.](Man2011.pdf) provide a good reference for you to work on this project. 
 
 <center><img src="Images/oer_volcano.png" alt="oer" style="width: 400px;"/><br>
 OER Activity Volcano. (Man et.al. 2011)
@@ -34,7 +37,13 @@ The universal linear scaling between ∆G_OH and ∆G_OOH helps you to asses the
 
 Your tasks include the following:
 1. Calculate the OER over-potential of pure SnO2 reduced surface, determine the most favorable binding site for O.
-2. Replace one of the surface Sn atom with other dopants of your choices. (at least 3 dopants and please discuss with me before submitting your jobs)
+<center><img src="Images/r-sno2-sur.png" alt="add" style="width: 300px;"/>
+Reduced SnO2(110) surface. Available binding sites: Bridge and CUS(coordination unsaturated) Sites.
+</center>
+2. Replace one of the surface Sn atom with other dopants of your choices. (at least 3 dopants and please discuss with me before submitting your jobs). For each dopant please consider the following two possible doping sites.
+<center><img src="Images/doping_sites.png" alt="add" style="width: 300px;"/>
+Two possible sites for doping guest metal (replacing Sn).
+</center>
 3. Discuss whether and how dopants makes SnO2 better (or worse).
 
 <a name='qanda'></a>
