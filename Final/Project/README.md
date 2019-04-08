@@ -17,7 +17,27 @@ ________
 
 <a name='separation'></a>
 ## Zeolite for Gas Separation ##
+Path:`/home/liz18025/shared/cheg4995-5395/final_project/Separation`
 
+In this project, you will be calculating the adsorption free energy of Benzene(C6H6) and Thiophene (C4H4S) on the larges pore of the ZSM-5 zeolite. Due to the limitation of the computation resource, you will perform the calculation on the cut-out model, which consist of the 10-Si-atom ring(pore) and necessary surrounding atoms.
+<center><img src="Images/centered_traj_0.png" alt="add" style="width: 400px;"/><br>
+10-Si-atom Ring
+</center>
+
+Your tasks include the following:
+* Using `make_ring.py` to generate a proper model for Zeolite simulation by adjusting the `cutoff` value. Make sure your structure has the same stoichiometry as SiO2 to avoid electronic converging issue. Optimize its structure with by fixing surrounding atoms.
+
+* Calculate the adsorption free energy of Benzene and Thiophene on the 10-Si-atom ring of the pure ZSM-5.
+<center>
+<img src="Images/benzene.png" alt="add" style="width: 300px;"/>
+<img src="Images/Thiophene.png" alt="add" style="width: 300px;"/>
+<br>
+Benzene and Thiophene 
+</center>
+
+* Calculate adsorption free energy of Benzene and Thiophene on the 10-Si-atom ring of the ion-exchanged ZSM-5
+
+* Discuss how the adsorption isotherm (separation ability) is affected by ion-exchange.
 
 <a name='oer'></a>
 ## SnO2-based OER Catalysts ##
