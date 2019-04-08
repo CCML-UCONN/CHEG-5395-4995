@@ -1,12 +1,12 @@
 ---
 mathjax: true
-permalink: /Final/Team
+permalink: /Final/Team/
 published: true
 ---
 * [Homepage](/CHEG-5395-4995/)
 # Final Project #
-1. [Teams and Timeline](/CHEG-5395-4995/Final/Team)
-2. [Project Description](/CHEG-5395-4995/Final/Project)
+1. [Teams and Timeline](/CHEG-5395-4995/Final/Team/)
+2. [Project Description](/CHEG-5395-4995/Final/Project/)
 
 ____
 
