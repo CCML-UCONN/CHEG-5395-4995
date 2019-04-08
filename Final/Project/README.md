@@ -1,6 +1,6 @@
 ---
 mathjax: true
-permalink: /Final/Project
+permalink: /Final/Project/
 published: true
 ---
 * [Homepage](/CHEG-5395-4995/)
