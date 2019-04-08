@@ -35,12 +35,13 @@ The universal linear scaling between ∆G_OH and ∆G_OOH helps you to asses the
 </center>
 
 Your tasks include the following:
+
 1. Calculate the OER over-potential of pure SnO2 reduced surface, determine the most favorable binding site for O.
-<center><img src="Images/r-sno2-sur.png" alt="add" style="width: 500px;"/><br>
+<center><img src="Images/r-sno2-sur.png" alt="add" style="width: 400px;"/><br>
 Reduced SnO2(110) surface. Available binding sites: Bridge and CUS(coordination unsaturated) Sites.
 </center>
 2. Replace one of the surface Sn atom with other dopants of your choices. (at least 3 dopants and please discuss with me before submitting your jobs). For each dopant please consider the following two possible doping sites.
-<center><img src="Images/doping_sites.png" alt="add" style="width: 300px;"/><br>
+<center><img src="Images/doping_sites.png" alt="add" style="width: 400px;"/><br>
 Two possible sites for doping guest metal (replacing Sn).
 </center>
 3. Discuss whether and how dopants makes SnO2 better (or worse).
