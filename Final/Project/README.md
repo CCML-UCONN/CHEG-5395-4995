@@ -21,9 +21,8 @@ ________
 
 <a name='oer'></a>
 ## SnO2-based OER Catalysts ##
-Path: ```bash
-/home/liz18025/shared/cheg4995-5395/final_project/OER
-```
+Path:`/home/liz18025/shared/cheg4995-5395/final_project/OER`
+
 Pure SnO2 itself is one of the worst OER catalysts, due to weak binging of O species on the surface. You will be calculating the adsorption free energy of O and OH on pure and doped SnO2(110) surface to obtain the theoretical OER over-potential. [The paper by Man et. al.](Man2011.pdf) provide a good reference for you to work on this project.
 
 <center><img src="Images/oer_volcano.png" alt="oer" style="width: 400px;"/><br>
