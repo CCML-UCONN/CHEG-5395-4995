@@ -18,7 +18,7 @@ In the second exercise, you will be calculating the adsorption energy of CO and 
 <center><img src="eads_eq.png" alt="window" style="width: 400px;"/>
 </center>
 
-where CO* refers to adsorbed CO. We have E_surface from the previous exercise, so we will need to calculate E_surface+CO*. The energy of E_CO is -620.461011467 eV. The energy of O2 molecule E_O2 is  -912.545535 eV.
+where CO* refers to adsorbed CO. We have E_surface from the previous exercise, so we will need to calculate E_surface+CO*. **The energy of E_CO is -620.461011467 eV. The energy of O2 molecule E_O2 is  -912.545535 eV.**
 
 <a name='adsorption-sites'></a>
 
