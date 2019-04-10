@@ -8,6 +8,7 @@ published: true
 1. [Introduction to ASE](/CHEG-5395-4995/ASE)
 2. [Getting Started with DFT Calculations__HW3a](../DFT/QE/Getting_Started/)
 3. [Adsorption_HW3b](../DFT/QE/Adsorption/)
+4. [Transition States](../DFT/QE/Transition_States/)
 ____
 
 ## Introduction to ASE

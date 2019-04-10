@@ -9,46 +9,26 @@ permalink: /ASE/Transition_States/
 2. [Getting Started](../Getting_Started/)
 3. [Adsorption](../Adsorption/)
 4. [Transition States](../Transition_States/)
-5. [Error Estimation and Density of States](../BEEF_DOS/)
+
 
 ____
+## Copy this exercise
+```bash
+/home/liz18025/shared/cheg4995-5395/T4_Transition_State
+```
 
 ## Transition State and Free Energy Calculations
-
-In this final exercise, you will be calculating the transition state energy for N<sub>2</sub> dissociation using the fixed bond length (FBL) method. The  nudged elastic band (NEB) method can more accurately determine the saddle point for the transition state, but it is more computationally intensive and we won't be using it for this course. You will also be calculating the vibrational modes for the adsorbed species and using the modules within ASE to determine free energies. Finally, you will be putting everything together in order to calculate the reaction rate.
-
+In this exercise, you will be calculating the transition state energy for H diffusion using the  nudged elastic band (NEB) method. NEB can accurately determine the saddle point for the transition state as well as the minimum energy(MEP) path, but it is more computationally intensive. So we won't be using QE to illustrate for this course, instead [effective medium theory potential(EMT)](https://wiki.fysik.dtu.dk/ase/ase/calculators/emt.html#module-ase.calculators.emt)) will be used for quick demonstrations and tests. Remember: The EMT parameters for H, C, N and O parameters are just for fun, and the results should not be over-interpreted.
 
 ## Contents
-2. [Fixed Bond Length Calculation](#fixed-bond-length-calculation)
-3. [Vibrational Frequencies and Free Energies](#vibrational-frequencies)
+1. [Nudged Elastic Band Calculation](#nudged-elastic-band-calculation)
+2. [H diffusion on Cu(111)](#h_diffusion)
+3. [H2 dissociation on Cu(111)](#h2_dissociation)
 4. [Reaction Rate](#reaction-rate)
-5. [Nudged Elastic Band Calculation (Optional)](#nudged-elastic-band-calculation)
 
 
-### Required Files ###
 
-Obtain the required files by running:
-
-on Sherlock:
-
-```bash
-cd $SCRATCH
-wget http://chemeng444.github.io/ASE/Transition_States/exercise_3_sherlock.tar
-tar -xvf exercise_3_sherlock.tar
-```
-
-or on CEES:
-
-```bash
-cd ~/$USER
-wget http://chemeng444.github.io/ASE/Transition_States/exercise_3_cees.tar
-tar -xvf exercise_3_cees.tar
-```
-
-
-This will create a folder called `Exercise_3_Transition_States`.
-
-<a name='fixed-bond-length-calculation'></a>
+<a name='H diffusion on Cu(111)'></a>
 
 ### Fixed Bond Length Calculation ###
 
