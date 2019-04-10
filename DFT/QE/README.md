@@ -1,5 +1,4 @@
 ---
-mathjax: true
 permalink: /DFT/QE/
 published: true
 ---
