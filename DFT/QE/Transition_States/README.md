@@ -1,7 +1,7 @@
 ---
 layout: page
 mathjax: false
-permalink: /ASE/Transition_States/
+permalink: /DFT/QE/Transition_States/
 ---
 
 # ASE Tutorials
